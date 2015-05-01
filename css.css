@@ -2,3 +2,7 @@
 #projects {
 	font-size: xx-large;
 }
+
+ul {
+   list-style:none;
+}
