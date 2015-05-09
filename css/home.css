@@ -1,0 +1,20 @@
+@charset "utf-8";
+#home {
+	height: 192px;
+	width: 100%;
+	max-width: 960px;
+	background-color: rgba(255,255,255,1.00);
+}
+#wrapperhome {
+	padding-top: 42px;
+	margin: auto;  
+  position: absolute;
+  left: 25%%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+#wrapperhome #header {
+	
+	position: absolute;
+}
