@@ -7,6 +7,9 @@ body {
 	text-align: center;
 	background-color: #6C6B6A;
 	background-image: url(../images/background.png);
+	background-size:100% 100%;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 ul {
@@ -103,6 +106,6 @@ ul li:hover ul {
 	color: rgba(19,19,19,1.00);
 }
 #item #item a:hover {
-	text-decoration: underline;
-	color: rgba(251,248,248,1.00);
+	text-decoration: none;
+	color: rgba(252,5,5,1.00);
 }
