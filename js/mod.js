@@ -19,7 +19,7 @@ $( "#daggcorr" ).load( "templates/corruption.html #daggcorr"
   ); 
 $( "#1hswordcorr" ).load( "templates/corruption.html #1hswordcorr" 
   ); 
-$( "#sceptrecorr" ).load( "templates/corruption.html #sceptrecorr" 
+$( "#1hmacecorr" ).load( "templates/corruption.html #1hmacecorr" 
   );
 $( "#sceptrecorr" ).load( "templates/corruption.html #sceptrecorr" 
   );
