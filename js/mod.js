@@ -349,10 +349,16 @@ $( "#strngbxp" ).load( "templates/prefix.html #strngbxp"
   ); 
 $( "#mapp" ).load( "templates/prefix.html #mapp" 
   ); 
-  
-  
-  
-  
+$( "#elreonlifeammy" ).load( "templates/prefix.html #elreonlifeammy" 
+  );
+$( "#elreonevflatring" ).load( "templates/prefix.html #elreonevflatring" 
+  );   
+$( "#flateseleronammy" ).load( "templates/prefix.html #flateseleronammy" 
+  );
+$( "#spellhybridstaff" ).load( "templates/prefix.html #spellhybridstaff" 
+  );    
+$( "#rarityra" ).load( "templates/prefix.html #rarityra" 
+  );  
 
  
   
