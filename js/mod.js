@@ -358,10 +358,25 @@ $( "#flateseleronammy" ).load( "templates/prefix.html #flateseleronammy"
 $( "#spellhybridstaff" ).load( "templates/prefix.html #spellhybridstaff" 
   );    
 $( "#rarityra" ).load( "templates/prefix.html #rarityra" 
+  );
+$( "#spellflatfire" ).load( "templates/prefix.html #spellflatfire" 
+  );
+$( "#spellflatcold" ).load( "templates/prefix.html #spellflatcold" 
+  ); 
+$( "#spellflatlight" ).load( "templates/prefix.html #spellflatlight" 
+  ); 
+$( "#spellflatfirestaff" ).load( "templates/prefix.html #spellflatfirestaff" 
+  );
+$( "#spellflatcoldstaff" ).load( "templates/prefix.html #spellflatcoldstaff" 
+  ); 
+$( "#spellflatlightstaff" ).load( "templates/prefix.html #spellflatlightstaff" 
   );  
-
- 
-  
+$( "#flatchaos1h" ).load( "templates/prefix.html #flatchaos1h" 
+  );
+$( "#flatchaos2h" ).load( "templates/prefix.html #flatchaos2h" 
+  );  
+    
+    
 $( "#wepacc" ).load( "templates/suffix.html #wepacc" 
   );  
 $( "#acchybrid" ).load( "templates/suffix.html #acchybrid" 
