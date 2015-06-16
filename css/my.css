@@ -181,6 +181,7 @@ h1 {
 }
 a {
 	display: block;
+	text-decoration: none;
 }
 
 #left {
@@ -279,7 +280,6 @@ a {
 	padding-top: 0px;
 }
 #wrapper #left a:hover {
-	text-decoration: none;
 	color: rgba(255,255,255,1.00);
 	display: block;
 	background-color: rgba(96,95,95,1.00);
@@ -301,7 +301,12 @@ a {
 
 
 /* Hide original text */
-a:hover { font-size: 0; }
+a:hover {
+	font-size: 0;
+	display: block;
+	margin-bottom: -1px;
+}
+
 
 /* Replace original text with value in data-hover */
 a:hover:before {

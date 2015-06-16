@@ -7,7 +7,7 @@ body {
 	text-align: center;
 	background-color: #6C6B6A;
 	background-image: url(../images/background.png);
-	background-size:100% 100%;
+	background-size: 100% 100%;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -25,7 +25,7 @@ ul {
 	width: 960px;
 	margin-right: auto;
 	margin-left: auto;
-	font-family: "Fontin Sans Rg";
+	font-family: "Fontin SmallCaps";
 }
 ul li {
 	line-height: 18px;
@@ -108,4 +108,5 @@ ul li:hover ul {
 #item #item a:hover {
 	text-decoration: none;
 	color: rgba(252,5,5,1.00);
+	margin-bottom: 0px;
 }

@@ -552,4 +552,6 @@ $( "#flasks" ).load( "templates/suffix.html #flasks"
 $( "#strngbxs" ).load( "templates/suffix.html #strngbxs" 
   ); 
 $( "#maps" ).load( "templates/suffix.html #maps" 
-  );            
+  );   
+  
+     
