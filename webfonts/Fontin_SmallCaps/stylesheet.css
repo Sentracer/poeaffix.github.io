@@ -1,4 +1,6 @@
 @font-face {
 	font-family: 'Fontin SmallCaps';
 	src: url('Fontin-SmallCaps.ttf') format('truetype');
+	-moz-font-feature-settings: "liga=0";
+    -moz-font-feature-settings: "liga" 0;
 }

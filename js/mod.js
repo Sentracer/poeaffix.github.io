@@ -374,7 +374,13 @@ $( "#spellflatlightstaff" ).load( "templates/prefix.html #spellflatlightstaff"
 $( "#flatchaos1h" ).load( "templates/prefix.html #flatchaos1h" 
   );
 $( "#flatchaos2h" ).load( "templates/prefix.html #flatchaos2h" 
-  );  
+  ); 
+$( "#hakushieldlife" ).load( "templates/prefix.html #hakushieldlife" 
+  );
+
+
+
+  
     
     
 $( "#wepacc" ).load( "templates/suffix.html #wepacc" 
