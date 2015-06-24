@@ -377,6 +377,8 @@ $( "#flatchaos2h" ).load( "templates/prefix.html #flatchaos2h"
   ); 
 $( "#hakushieldlife" ).load( "templates/prefix.html #hakushieldlife" 
   );
+$( "#toraflatphys2h" ).load( "templates/prefix.html #toraflatphys2h" 
+  );  
 
 
 
