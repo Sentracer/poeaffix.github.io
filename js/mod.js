@@ -58,7 +58,14 @@ $( "#corrring" ).load( "templates/corruption.html #corrring"
 $( "#corrjew" ).load( "templates/corruption.html #corrjew" 
   );  
 $( "#fishcorr" ).load( "templates/corruption.html #fishcorr" 
-  );   
+  ); 
+  
+  
+  
+  
+  
+  
+    
   
   
  $( "#1haxewcraft" ).load( "templates/master.html #1haxewcraft" 
@@ -379,10 +386,10 @@ $( "#hakushieldlife" ).load( "templates/prefix.html #hakushieldlife"
   );
 $( "#toraflatphys2h" ).load( "templates/prefix.html #toraflatphys2h" 
   );  
-
-
-
-  
+$( "#hakulleech" ).load( "templates/prefix.html #hakulleech" 
+  ); 
+$( "#hakumleech" ).load( "templates/prefix.html #hakumleech" 
+  );  
     
     
 $( "#wepacc" ).load( "templates/suffix.html #wepacc" 
