@@ -567,6 +567,125 @@ $( "#flasks" ).load( "templates/suffix.html #flasks"
 $( "#strngbxs" ).load( "templates/suffix.html #strngbxs" 
   ); 
 $( "#maps" ).load( "templates/suffix.html #maps" 
+  ); 
+
+
+
+$( "#Skeletal" ).load( "templates/map.html #Skeletal" 
+  );
+$( "#Slithering" ).load( "templates/map.html #Slithering" 
+  );    
+$( "#Undead" ).load( "templates/map.html #Undead" 
+  );  
+$( "#Multifarious" ).load( "templates/map.html #Multifarious" 
+  );
+$( "#Overlord" ).load( "templates/map.html #Overlord" 
+  );
+$( "#Ceremonial" ).load( "templates/map.html #Ceremonial" 
+  );
+$( "#Twinned" ).load( "templates/map.html #Twinned" 
   );   
+$( "#Incombustible" ).load( "templates/map.html #Incombustible" 
+  );  
+$( "#Molten" ).load( "templates/map.html #Molten" 
+  );   
+$( "#Grounded" ).load( "templates/map.html #Grounded" 
+  );
+$( "#Armoured" ).load( "templates/map.html #Armoured" 
+  );     
+$( "#Antagonists" ).load( "templates/map.html #Antagonists" 
+  );  
+$( "#Emanant" ).load( "templates/map.html #Emanant" 
+  );   
+$( "#Otherworldly" ).load( "templates/map.html #Otherworldly" 
+  );  
+$( "#Splitting" ).load( "templates/map.html #Splitting" 
+  );   
+$( "#Fecund" ).load( "templates/map.html #Fecund" 
+  );  
+$( "#Burning" ).load( "templates/map.html #Burning" 
+  );   
+$( "#Freezing" ).load( "templates/map.html #Freezing" 
+  );  
+$( "#Shocking" ).load( "templates/map.html #Shocking" 
+  );  
+$( "#Anarchic" ).load( "templates/map.html #Anarchic" 
+  );  
+$( "#Feral" ).load( "templates/map.html #Feral" 
+  );    
+$( "#Demonic" ).load( "templates/map.html #Demonic" 
+  );  
+$( "#Bipedal" ).load( "templates/map.html #Bipedal" 
+  );   
+$( "#Chaining" ).load( "templates/map.html #Chaining" 
+  );   
+$( "#Punishing" ).load( "templates/map.html #Punishing" 
+  );  
+$( "#Mirrored" ).load( "templates/map.html #Mirrored" 
+  ); 
+$( "#Capricious" ).load( "templates/map.html #Capricious" 
+  );  
+$( "#Hexproof" ).load( "templates/map.html #Hexproof" 
+  );    
+$( "#Unwavering" ).load( "templates/map.html #Unwavering" 
+  );  
+$( "#Deadly" ).load( "templates/map.html #Deadly" 
+  );   
+$( "#Fleet" ).load( "templates/map.html #Fleet" 
+  ); 
+$( "#Balance" ).load( "templates/map.html #Balance" 
+  );
+$( "#Flames" ).load( "templates/map.html #Flames" 
+  );  
+$( "#Ice" ).load( "templates/map.html #Ice" 
+  );  
+$( "#Lightning" ).load( "templates/map.html #Lightning" 
+  ); 
+$( "#Desecration" ).load( "templates/map.html #Desecration" 
+  ); 
+$( "#Bloodlines" ).load( "templates/map.html #Bloodlines" 
+  ); 
+$( "#Frenzy" ).load( "templates/map.html #Frenzy" 
+  ); 
+$( "#Endurance" ).load( "templates/map.html #Endurance" 
+  );      
+$( "#Power" ).load( "templates/map.html #Power" 
+  );
+$( "#Hemomancy" ).load( "templates/map.html #Hemomancy" 
+  );
+$( "#Venom" ).load( "templates/map.html #Venom" 
+  );  
+$( "#ElementalWeakness" ).load( "templates/map.html #ElementalWeakness" 
+  );  
+$( "#Vulnerability" ).load( "templates/map.html #Vulnerability" 
+  );  
+$( "#Enfeeblement" ).load( "templates/map.html #Enfeeblement" 
+  );  
+$( "#TemporalChains" ).load( "templates/map.html #TemporalChains" 
+  );  
+$( "#Exposure" ).load( "templates/map.html #Exposure" 
+  );  
+$( "#Smothering" ).load( "templates/map.html #Smothering" 
+  );  
+$( "#Stasis" ).load( "templates/map.html #Stasis" 
+  );  
+$( "#Fracturing" ).load( "templates/map.html #Fracturing" 
+  );  
+
   
-     
+  
+  
+  
+  
+  
+  
+  
+        
+function toggle(Info) {
+  var CState = document.getElementById(Info);
+  CState.style.display = (CState.style.display != 'block')
+                       ? 'block' : 'none';
+}    
+  
+  
+  

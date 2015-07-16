@@ -349,3 +349,7 @@ h3 {
 	font-size: 22px;
 	text-align: center;
 }
+
+.MOD {  cursor:pointer;
+         }
+.VAL { display:none; }
