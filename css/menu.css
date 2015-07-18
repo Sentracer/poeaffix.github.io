@@ -45,6 +45,7 @@ ul li {
 	transition: all 0.2s;
 	-webkit-box-shadow: 0 5px 0 rgba(43,43,43,0.70);
 	box-shadow: 0 5px 0 rgba(43,43,43,0.70);
+	margin-bottom: -1px;
 }
 ul li:hover {
 	background: #555;
