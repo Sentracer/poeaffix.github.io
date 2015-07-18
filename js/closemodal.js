@@ -169,213 +169,363 @@ var modal = document.querySelector('#openModal100');
 modal.addEventListener('click', function(e) {
     modalClose();
 }, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
+}, false);
 var modal = document.querySelector('#openModal0');
 modal.addEventListener('click', function(e) {
     modalClose();
+}, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
 }, false);
 var modal = document.querySelector('#openModal1');
 modal.addEventListener('click', function(e) {
     modalClose();
 }, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
+}, false);
 var modal = document.querySelector('#openModal2');
 modal.addEventListener('click', function(e) {
     modalClose();
+}, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
 }, false);
 var modal = document.querySelector('#openModal3');
 modal.addEventListener('click', function(e) {
     modalClose();
 }, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
+}, false);
 var modal = document.querySelector('#openModal4');
 modal.addEventListener('click', function(e) {
     modalClose();
+}, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
 }, false);
 var modal = document.querySelector('#openModal5');
 modal.addEventListener('click', function(e) {
     modalClose();
 }, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
+}, false);
 var modal = document.querySelector('#openModal6');
 modal.addEventListener('click', function(e) {
     modalClose();
+}, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
 }, false);
 var modal = document.querySelector('#openModal7');
 modal.addEventListener('click', function(e) {
     modalClose();
 }, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
+}, false);
 var modal = document.querySelector('#openModal8');
 modal.addEventListener('click', function(e) {
     modalClose();
+}, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
 }, false);
 var modal = document.querySelector('#openModal9');
 modal.addEventListener('click', function(e) {
     modalClose();
 }, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
+}, false);
 var modal = document.querySelector('#openModal10');
 modal.addEventListener('click', function(e) {
     modalClose();
+}, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
 }, false);
 var modal = document.querySelector('#openModal11');
 modal.addEventListener('click', function(e) {
     modalClose();
 }, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
+}, false);
 var modal = document.querySelector('#openModal12');
 modal.addEventListener('click', function(e) {
     modalClose();
+}, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
 }, false);
 var modal = document.querySelector('#openModal13');
 modal.addEventListener('click', function(e) {
     modalClose();
 }, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
+}, false);
 var modal = document.querySelector('#openModal14');
 modal.addEventListener('click', function(e) {
     modalClose();
+}, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
 }, false);
 var modal = document.querySelector('#openModal15');
 modal.addEventListener('click', function(e) {
     modalClose();
 }, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
+}, false);
 var modal = document.querySelector('#openModal16');
 modal.addEventListener('click', function(e) {
     modalClose();
+}, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
 }, false);
 var modal = document.querySelector('#openModal17');
 modal.addEventListener('click', function(e) {
     modalClose();
 }, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
+}, false);
 var modal = document.querySelector('#openModal18');
 modal.addEventListener('click', function(e) {
     modalClose();
+}, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
 }, false);
 var modal = document.querySelector('#openModal19');
 modal.addEventListener('click', function(e) {
     modalClose();
 }, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
+}, false);
 var modal = document.querySelector('#openModal20');
 modal.addEventListener('click', function(e) {
     modalClose();
+}, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
 }, false);
 var modal = document.querySelector('#openModal21');
 modal.addEventListener('click', function(e) {
     modalClose();
 }, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
+}, false);
 var modal = document.querySelector('#openModal22');
 modal.addEventListener('click', function(e) {
     modalClose();
+}, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
 }, false);
 var modal = document.querySelector('#openModal23');
 modal.addEventListener('click', function(e) {
     modalClose();
 }, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
+}, false);
 var modal = document.querySelector('#openModal24');
 modal.addEventListener('click', function(e) {
     modalClose();
+}, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
 }, false);
 var modal = document.querySelector('#openModal25');
 modal.addEventListener('click', function(e) {
     modalClose();
 }, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
+}, false);
 var modal = document.querySelector('#openModal26');
 modal.addEventListener('click', function(e) {
     modalClose();
+}, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
 }, false);
 var modal = document.querySelector('#openModal27');
 modal.addEventListener('click', function(e) {
     modalClose();
 }, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
+}, false);
 var modal = document.querySelector('#openModal28');
 modal.addEventListener('click', function(e) {
     modalClose();
+}, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
 }, false);
 var modal = document.querySelector('#openModal29');
 modal.addEventListener('click', function(e) {
     modalClose();
 }, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
+}, false);
 var modal = document.querySelector('#openModal30');
 modal.addEventListener('click', function(e) {
     modalClose();
+}, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
 }, false);
 var modal = document.querySelector('#openModal31');
 modal.addEventListener('click', function(e) {
     modalClose();
 }, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
+}, false);
 var modal = document.querySelector('#openModal32');
 modal.addEventListener('click', function(e) {
     modalClose();
+}, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
 }, false);
 var modal = document.querySelector('#openModal33');
 modal.addEventListener('click', function(e) {
     modalClose();
 }, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
+}, false);
 var modal = document.querySelector('#openModal34');
 modal.addEventListener('click', function(e) {
     modalClose();
+}, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
 }, false);
 var modal = document.querySelector('#openModal35');
 modal.addEventListener('click', function(e) {
     modalClose();
 }, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
+}, false);
 var modal = document.querySelector('#openModal36');
 modal.addEventListener('click', function(e) {
     modalClose();
+}, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
 }, false);
 var modal = document.querySelector('#openModal37');
 modal.addEventListener('click', function(e) {
     modalClose();
 }, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
+}, false);
 var modal = document.querySelector('#openModal38');
 modal.addEventListener('click', function(e) {
     modalClose();
+}, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
 }, false);
 var modal = document.querySelector('#openModal39');
 modal.addEventListener('click', function(e) {
     modalClose();
 }, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
+}, false);
 var modal = document.querySelector('#openModal40');
 modal.addEventListener('click', function(e) {
     modalClose();
+}, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
 }, false);
 var modal = document.querySelector('#openModal41');
 modal.addEventListener('click', function(e) {
     modalClose();
 }, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
+}, false);
 var modal = document.querySelector('#openModal42');
 modal.addEventListener('click', function(e) {
     modalClose();
+}, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
 }, false);
 var modal = document.querySelector('#openModal43');
 modal.addEventListener('click', function(e) {
     modalClose();
 }, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
+}, false);
 var modal = document.querySelector('#openModal44');
 modal.addEventListener('click', function(e) {
     modalClose();
+}, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
 }, false);
 var modal = document.querySelector('#openModal45');
 modal.addEventListener('click', function(e) {
     modalClose();
 }, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
+}, false);
 var modal = document.querySelector('#openModal46');
 modal.addEventListener('click', function(e) {
     modalClose();
+}, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
 }, false);
 var modal = document.querySelector('#openModal47');
 modal.addEventListener('click', function(e) {
     modalClose();
 }, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
+}, false);
 var modal = document.querySelector('#openModal48');
 modal.addEventListener('click', function(e) {
     modalClose();
+}, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
 }, false);
 var modal = document.querySelector('#openModal49');
 modal.addEventListener('click', function(e) {
     modalClose();
 }, false);
+modal.children[0].addEventListener('click', function(e) {
+    e.stopPropagation();
+}, false);
 var modal = document.querySelector('#openModal50');
 modal.addEventListener('click', function(e) {
     modalClose();
 }, false);
-
-
 modal.children[0].addEventListener('click', function(e) {
     e.stopPropagation();
 }, false);
-
