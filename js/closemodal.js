@@ -529,3 +529,4 @@ modal.addEventListener('click', function(e) {
 modal.children[0].addEventListener('click', function(e) {
     e.stopPropagation();
 }, false);
+
