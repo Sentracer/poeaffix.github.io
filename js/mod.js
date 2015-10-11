@@ -508,6 +508,8 @@ $( "#elreonacc" ).load( "templates/suffix.html #elreonacc"
   );
 $( "#elreonallatt" ).load( "templates/suffix.html #elreonallatt" 
   );
+$( "#elreonallattr" ).load( "templates/suffix.html #elreonallattr" 
+  );  
 $( "#elreondex" ).load( "templates/suffix.html #elreondex" 
   );
 $( "#elreonint" ).load( "templates/suffix.html #elreonint" 
