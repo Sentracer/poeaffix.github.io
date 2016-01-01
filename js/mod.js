@@ -161,7 +161,8 @@ $( "#rodp" ).load( "templates/prefix.html #rodp"
   )  
   
   
-
+$( "#chaosgem" ).load( "templates/prefix.html #chaosgem" 
+  );
 $( "#amana" ).load( "templates/prefix.html #amana" 
   );   
 $( "#vaganflatphys" ).load( "templates/prefix.html #vaganflatphys" 
