@@ -205,6 +205,8 @@ $( "#torahphys" ).load( "templates/prefix.html #torahphys"
   );
 $( "#lleechn" ).load( "templates/prefix.html #lleechn" 
   );
+$( "#lleechr" ).load( "templates/prefix.html #lleechr" 
+  );
 $( "#mleechn" ).load( "templates/prefix.html #mleechn" 
   );
 $( "#torawed" ).load( "templates/prefix.html #torawed" 
