@@ -10,6 +10,8 @@ body {
 	background-size: 100% 100%;
 	background-size: cover;
 	background-attachment: fixed;
+	-moz-font-feature-settings: "liga=0";
+	-moz-font-feature-settings: "liga" 0;
 }
 
 ul {
