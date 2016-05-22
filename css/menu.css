@@ -12,10 +12,8 @@ body {
 	background-attachment: fixed;
 	-moz-font-feature-settings: "liga=0";
 	-moz-font-feature-settings: "liga" 0;
-<<<<<<< HEAD
 	-webkit-font-feature-settings:"liga" 0
-=======
->>>>>>> origin/master
+
 }
 
 ul {
