@@ -301,7 +301,13 @@ a {
 
 
 /* Hide original text */
-a:hover {
+aside a:hover {
+	font-size: 0;
+	display: block;
+	margin-bottom: -1px;
+}
+
+header a:hover {
 	font-size: 0;
 	display: block;
 	margin-bottom: -1px;
@@ -340,6 +346,14 @@ h3 {
 #headimage a {
 	margin-top: 25px;
 }
+
+#headimage a:hover {
+	
+	display: block;
+	margin-bottom: -1px;
+}
+
+
 #item2 {
 	background-color: rgba(195,195,195,1.00);
 	-webkit-box-shadow: 0 0;
