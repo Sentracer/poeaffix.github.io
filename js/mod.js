@@ -1,4 +1,374 @@
 // JavaScript Document
+
+
+$( "#AbyssalCry" ).load( "templates/enchant.html #AbyssalCry" 
+  );
+$( "#AncestorTotem" ).load( "templates/enchant.html #AncestorTotem" 
+  );  
+$( "#AncestralProtector" ).load( "templates/enchant.html #AncestralProtector" 
+  );
+$( "#Anger" ).load( "templates/enchant.html #Anger" 
+  );
+$( "#AnimateGaurdian" ).load( "templates/enchant.html #AnimateGaurdian" 
+  );
+$( "#AnimateWeapon" ).load( "templates/enchant.html #AnimateWeapon" 
+  );
+$( "#Arc" ).load( "templates/enchant.html #Arc" 
+  );
+$( "#ArcticArmour" ).load( "templates/enchant.html #ArcticArmour" 
+  );
+$( "#ArcticBreath" ).load( "templates/enchant.html #ArcticBreath" 
+  );
+$( "#AssMark" ).load( "templates/enchant.html #AssMark" 
+  );
+$( "#BallLightning" ).load( "templates/enchant.html #BallLightning" 
+  );
+$( "#Barrage" ).load( "templates/enchant.html #Barrage" 
+  );
+$( "#BearTrap" ).load( "templates/enchant.html #BearTrap" 
+  );
+$( "#BladeVortex" ).load( "templates/enchant.html #BladeVortex" 
+  );  
+$( "#Bladefall" ).load( "templates/enchant.html #Bladefall" 
+  );
+$( "#BlastRain" ).load( "templates/enchant.html #BlastRain" 
+  );
+$( "#BlinkArrow" ).load( "templates/enchant.html #BlinkArrow" 
+  );
+$( "#BloodRage" ).load( "templates/enchant.html #BloodRage" 
+  );
+$( "#BoneOffering" ).load( "templates/enchant.html #BoneOffering" 
+  );
+$( "#BurningArrow" ).load( "templates/enchant.html #BurningArrow" 
+  );
+$( "#CausticArrow" ).load( "templates/enchant.html #CausticArrow" 
+  );
+$( "#ChaosGolem" ).load( "templates/enchant.html #ChaosGolem" 
+  );
+$( "#Clarity" ).load( "templates/enchant.html #Clarity" 
+  );
+$( "#Cleave" ).load( "templates/enchant.html #Cleave" 
+  );
+$( "#ColdSnap" ).load( "templates/enchant.html #ColdSnap" 
+  );
+$( "#Conductivity" ).load( "templates/enchant.html #Conductivity" 
+  );
+$( "#Contagion" ).load( "templates/enchant.html #Contagion" 
+  );
+$( "#ConversionTrap" ).load( "templates/enchant.html #ConversionTrap" 
+  );
+$( "#Convocation" ).load( "templates/enchant.html #Convocation" 
+  );
+$( "#Cyclone" ).load( "templates/enchant.html #Cyclone" 
+  );
+$( "#DecoyTotem" ).load( "templates/enchant.html #DecoyTotem" 
+  );
+$( "#Desecrate" ).load( "templates/enchant.html #Desecrate" 
+  );
+$( "#Determination" ).load( "templates/enchant.html #Determination" 
+  );
+$( "#DetonateDead" ).load( "templates/enchant.html #DetonateDead" 
+  );
+$( "#DevouringTotem" ).load( "templates/enchant.html #DevouringTotem" 
+  );
+$( "#Discharge" ).load( "templates/enchant.html #Discharge" 
+  );
+$( "#Discipline" ).load( "templates/enchant.html #Discipline" 
+  );
+$( "#DominatingBlow" ).load( "templates/enchant.html #DominatingBlow" 
+  );
+$( "#DoubleStrike" ).load( "templates/enchant.html #DoubleStrike" 
+  );
+$( "#DualStrike" ).load( "templates/enchant.html #DualStrike" 
+  );
+$( "#Earthquake" ).load( "templates/enchant.html #Earthquake" 
+  );
+$( "#ElementalHit" ).load( "templates/enchant.html #ElementalHit" 
+  );
+$( "#ElementalWeakness2" ).load( "templates/enchant.html #ElementalWeakness2" 
+  );
+$( "#EnduringCry" ).load( "templates/enchant.html #EnduringCry" 
+  );
+$( "#Enfeeble" ).load( "templates/enchant.html #Enfeeble" 
+  );
+$( "#EssenceDrain" ).load( "templates/enchant.html #EssenceDrain" 
+  );
+$( "#EtherealKnives" ).load( "templates/enchant.html #EtherealKnives" 
+  );
+$( "#ExplosiveArrow" ).load( "templates/enchant.html #ExplosiveArrow" 
+  );
+$( "#FireNovaMine" ).load( "templates/enchant.html #FireNovaMine" 
+  );
+$( "#FireStorm" ).load( "templates/enchant.html #FireStorm" 
+  );
+$( "#FireTrap" ).load( "templates/enchant.html #FireTrap" 
+  );
+$( "#Fireball" ).load( "templates/enchant.html #Fireball" 
+  );
+$( "#FlameDash" ).load( "templates/enchant.html #FlameDash" 
+  );
+$( "#FlameGolem" ).load( "templates/enchant.html #FlameGolem" 
+  );
+$( "#FlameSurge" ).load( "templates/enchant.html #FlameSurge" 
+  );
+$( "#FlameTotem" ).load( "templates/enchant.html #FlameTotem" 
+  );
+$( "#Flameblast" ).load( "templates/enchant.html #Flameblast" 
+  );
+$( "#Flammability" ).load( "templates/enchant.html #Flammability" 
+  );
+$( "#FleshOffering" ).load( "templates/enchant.html #FleshOffering" 
+  );
+$( "#FlickerStrike" ).load( "templates/enchant.html #FlickerStrike" 
+  );
+$( "#FreezeMine" ).load( "templates/enchant.html #FreezeMine" 
+  );
+$( "#FreezingPulse" ).load( "templates/enchant.html #FreezingPulse" 
+  );
+$( "#Frenzy2" ).load( "templates/enchant.html #Frenzy2" 
+  );
+$( "#FrostBlades" ).load( "templates/enchant.html #FrostBlades" 
+  );
+$( "#FrostBomb" ).load( "templates/enchant.html #FrostBomb" 
+  );
+$( "#Frostbite" ).load( "templates/enchant.html #Frostbite" 
+  );
+$( "#GlacialCascade" ).load( "templates/enchant.html #GlacialCascade" 
+  );
+$( "#GlacialHammer" ).load( "templates/enchant.html #GlacialHammer" 
+  );
+$( "#Grace" ).load( "templates/enchant.html #Grace" 
+  );
+$( "#GroundSlam" ).load( "templates/enchant.html #GroundSlam" 
+  );
+$( "#Haste" ).load( "templates/enchant.html #Haste" 
+  );
+$( "#Hatred" ).load( "templates/enchant.html #Hatred" 
+  );
+$( "#HeavyStrike" ).load( "templates/enchant.html #HeavyStrike" 
+  );
+$( "#HeraldofAsh" ).load( "templates/enchant.html #HeraldofAsh" 
+  );
+$( "#HeraldofIce" ).load( "templates/enchant.html #HeraldofIce" 
+  );
+$( "#HeraldofThunder" ).load( "templates/enchant.html #HeraldofThunder" 
+  );
+$( "#IceCrash" ).load( "templates/enchant.html #IceCrash" 
+  );
+$( "#IceGolem" ).load( "templates/enchant.html #IceGolem" 
+  );
+$( "#IceNova" ).load( "templates/enchant.html #IceNova" 
+  );
+$( "#IceShot" ).load( "templates/enchant.html #IceShot" 
+  );
+$( "#IceSpear" ).load( "templates/enchant.html #IceSpear" 
+  );
+$( "#IceTrap" ).load( "templates/enchant.html #IceTrap" 
+  );
+$( "#ImmortalCall" ).load( "templates/enchant.html #ImmortalCall" 
+  );
+$( "#Incinerate" ).load( "templates/enchant.html #Incinerate" 
+  );
+$( "#InfernalBlow" ).load( "templates/enchant.html #InfernalBlow" 
+  );
+$( "#KineticBlast" ).load( "templates/enchant.html #KineticBlast" 
+  );
+$( "#LeapSlam" ).load( "templates/enchant.html #LeapSlam" 
+  );
+$( "#LightningArrow" ).load( "templates/enchant.html #LightningArrow" 
+  );
+$( "#LightningStrike" ).load( "templates/enchant.html #LightningStrike" 
+  );
+$( "#LightningTendrils" ).load( "templates/enchant.html #LightningTendrils" 
+  );
+$( "#LightningTrap" ).load( "templates/enchant.html #LightningTrap" 
+  );
+$( "#LightningWarp" ).load( "templates/enchant.html #LightningWarp" 
+  );
+$( "#MagmaOrb" ).load( "templates/enchant.html #MagmaOrb" 
+  );
+$( "#MirrorArrow" ).load( "templates/enchant.html #MirrorArrow" 
+  );
+$( "#MoltenShell" ).load( "templates/enchant.html #MoltenShell" 
+  );
+$( "#OrbofStorms" ).load( "templates/enchant.html #OrbofStorms" 
+  );
+$( "#PhaseRun" ).load( "templates/enchant.html #PhaseRun" 
+  );
+$( "#PoachersMark" ).load( "templates/enchant.html #PoachersMark" 
+  );
+$( "#PowerSiphon" ).load( "templates/enchant.html #PowerSiphon" 
+  );
+$( "#Puncture" ).load( "templates/enchant.html #Puncture" 
+  );
+$( "#Punishment" ).load( "templates/enchant.html #Punishment" 
+  );
+$( "#PurityofElements" ).load( "templates/enchant.html #PurityofElements" 
+  );
+$( "#PurityofFire" ).load( "templates/enchant.html #PurityofFire" 
+  );
+$( "#PurityofIce" ).load( "templates/enchant.html #PurityofIce" 
+  );
+$( "#PurityofLightning" ).load( "templates/enchant.html #PurityofLightning" 
+  );
+$( "#RainofArrows" ).load( "templates/enchant.html #RainofArrows" 
+  );
+$( "#RaiseSpectre" ).load( "templates/enchant.html #RaiseSpectre" 
+  );
+$( "#RaiseZombie" ).load( "templates/enchant.html #RaiseZombie" 
+  );
+$( "#RallyingCry" ).load( "templates/enchant.html #RallyingCry" 
+  );
+$( "#Reave" ).load( "templates/enchant.html #Reave" 
+  );
+$( "#Reckoning" ).load( "templates/enchant.html #Reckoning" 
+  );
+$( "#RejuvenationTotem" ).load( "templates/enchant.html #RejuvenationTotem" 
+  );
+$( "#RighteousFire" ).load( "templates/enchant.html #RighteousFire" 
+  );
+$( "#Riposte" ).load( "templates/enchant.html #Riposte" 
+  );
+$( "#SearingBond" ).load( "templates/enchant.html #SearingBond" 
+  );
+$( "#ShieldCharge" ).load( "templates/enchant.html #ShieldCharge" 
+  );
+$( "#ShockNova" ).load( "templates/enchant.html #ShockNova" 
+  );
+$( "#ShockwaveTotem" ).load( "templates/enchant.html #ShockwaveTotem" 
+  );
+$( "#ShrapnelShot" ).load( "templates/enchant.html #ShrapnelShot" 
+  );
+$( "#SiegeBallista" ).load( "templates/enchant.html #SiegeBallista" 
+  );
+$( "#SmokeMine" ).load( "templates/enchant.html #SmokeMine" 
+  );
+$( "#Spark" ).load( "templates/enchant.html #Spark" 
+  );
+$( "#SpectralThrow" ).load( "templates/enchant.html #SpectralThrow" 
+  );
+$( "#StaticStrike" ).load( "templates/enchant.html #StaticStrike" 
+  );
+$( "#LightningGolem" ).load( "templates/enchant.html #LightningGolem" 
+  );
+$( "#StoneGolem" ).load( "templates/enchant.html #StoneGolem" 
+  );
+$( "#StormCall" ).load( "templates/enchant.html #StormCall" 
+  );
+$( "#SummonRagingSpirit" ).load( "templates/enchant.html #SummonRagingSpirit" 
+  );
+$( "#SummonSkeletons" ).load( "templates/enchant.html #SummonSkeletons" 
+  );
+$( "#Sunder" ).load( "templates/enchant.html #Sunder" 
+  );
+$( "#Sweep" ).load( "templates/enchant.html #Sweep" 
+  );
+$( "#TempestShield" ).load( "templates/enchant.html #TempestShield" 
+  );
+$( "#TChains" ).load( "templates/enchant.html #TChains" 
+  );
+$( "#TornadoShot" ).load( "templates/enchant.html #TornadoShot" 
+  );
+$( "#Vengeance" ).load( "templates/enchant.html #Vengeance" 
+  );
+$( "#VigilantStrike" ).load( "templates/enchant.html #VigilantStrike" 
+  );
+$( "#ViperStrike" ).load( "templates/enchant.html #ViperStrike" 
+  );
+$( "#Vilality" ).load( "templates/enchant.html #Vilality" 
+  );
+$( "#Vulnerability2" ).load( "templates/enchant.html #Vulnerability2" 
+  );
+$( "#WarlordsMark" ).load( "templates/enchant.html #WarlordsMark" 
+  );
+$( "#WhirlingBlades" ).load( "templates/enchant.html #WhirlingBlades" 
+  );
+$( "#WildStrike" ).load( "templates/enchant.html #WildStrike" 
+  );
+$( "#Wither" ).load( "templates/enchant.html #Wither" 
+  );
+$( "#Wrath" ).load( "templates/enchant.html #Wrath" 
+  );
+$( "#ProjectileWeakness" ).load( "templates/enchant.html #ProjectileWeakness" 
+  );
+$( "#SplitArrow" ).load( "templates/enchant.html #SplitArrow" 
+  );
+$( "#FrostWall" ).load( "templates/enchant.html #FrostWall" 
+  );
+$( "#MoltenStrike" ).load( "templates/enchant.html #MoltenStrike" 
+  );
+  
+  
+$( "#ofBlades" ).load( "templates/enchant.html #ofBlades" 
+  );  
+$( "#ofFlames" ).load( "templates/enchant.html #ofFlames" 
+  );   
+$( "#ofForce" ).load( "templates/enchant.html #ofForce" 
+  );   
+$( "#ofFrost" ).load( "templates/enchant.html #ofFrost" 
+  );  
+$( "#ofFury" ).load( "templates/enchant.html #ofFury" 
+  );  
+$( "#ofInferno" ).load( "templates/enchant.html #ofInferno" 
+  );
+$( "#ofLight" ).load( "templates/enchant.html #ofLight" 
+  );  
+$( "#ofReflection" ).load( "templates/enchant.html #ofReflection" 
+  );
+$( "#ofSpite" ).load( "templates/enchant.html #ofSpite" 
+  );   
+$( "#ofTempest" ).load( "templates/enchant.html #ofTempest" 
+  );  
+$( "#ofThunder" ).load( "templates/enchant.html #ofThunder" 
+  );   
+$( "#ofWar" ).load( "templates/enchant.html #ofWar" 
+  );
+$( "#ofWinter" ).load( "templates/enchant.html #ofWinter" 
+  );
+$( "#chaoswh" ).load( "templates/enchant.html #chaoswh" 
+  );
+$( "#firewh" ).load( "templates/enchant.html #firewh" 
+  );
+$( "#attkcastspd" ).load( "templates/enchant.html #attkcastspd" 
+  );
+$( "#lightningwh" ).load( "templates/enchant.html #lightningwh" 
+  );
+$( "#freezeshockignite" ).load( "templates/enchant.html #freezeshockignite" 
+  );
+$( "#coldwh" ).load( "templates/enchant.html #coldwh" 
+  );
+$( "#chancenocrit" ).load( "templates/enchant.html #chancenocrit" 
+  );
+$( "#dodgecrit" ).load( "templates/enchant.html #dodgecrit" 
+  );
+$( "#penkill" ).load( "templates/enchant.html #penkill" 
+  );
+$( "#lifemanakill" ).load( "templates/enchant.html #lifemanakill" 
+  );
+$( "#lifemanarkill" ).load( "templates/enchant.html #lifemanarkill" 
+  );
+$( "#reducemanahit" ).load( "templates/enchant.html #reducemanahit" 
+  );
+$( "#movehit" ).load( "templates/enchant.html #movehit" 
+  );
+$( "#spelldodgehit" ).load( "templates/enchant.html #spelldodgehit" 
+  );
+$( "#avoidstunkill" ).load( "templates/enchant.html #avoidstunkill" 
+  );
+$( "#talismanimplicit" ).load( "templates/enchant.html #talismanimplicit" 
+  );
+
+
+
+
+
+
+
+
+
+  
+      
+
 $( "#crimsonp" ).load( "templates/crimson.html #crimsonp" 
   );
 $( "#crims" ).load( "templates/crimson.html #crims" 
