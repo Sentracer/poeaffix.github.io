@@ -357,9 +357,10 @@ $( "#avoidstunkill" ).load( "templates/enchant.html #avoidstunkill"
   );
 $( "#talismanimplicit" ).load( "templates/enchant.html #talismanimplicit" 
   );
-
-
-
+$( "#ofGrave" ).load( "templates/enchant.html #ofGrave" 
+  );
+$( "#ofIre" ).load( "templates/enchant.html #ofIre" 
+  );
 
 
 
