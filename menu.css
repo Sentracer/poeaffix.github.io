@@ -1,0 +1,109 @@
+@charset "utf-8";
+@import url("../webfonts/Fontin_SmallCaps/stylesheet.css");
+
+body {
+	font-family: "Fontin SmallCaps";
+	font-size: 18px;
+	text-align: center;
+	background-color: #6C6B6A;
+	background-image: url(../images/background.png);
+	background-size: 100% 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	-moz-font-feature-settings: "liga=0";
+	-moz-font-feature-settings: "liga" 0;
+	-webkit-font-feature-settings:"liga" 0
+
+}
+
+ul {
+	text-align: left;
+	display: inline;
+	padding-top: 15px;
+	padding-left: 0;
+	padding-bottom: 17px;
+	list-style: none;
+	-webkit-box-shadow: -5px 5px 10px 2px rgba(61,58,58,1.00);
+	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	box-shadow: -5px 5px 10px 2px rgba(61,58,58,1.00);
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: "Fontin SmallCaps";
+}
+ul li {
+	line-height: 18px;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: "Fontin SmallCaps";
+	display: inline-block;
+	margin-right: -6px;
+	position: relative;
+	padding: 15px 20px;
+	background: #fff;
+	cursor: pointer;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+	-webkit-box-shadow: 0 5px 0 rgba(43,43,43,0.70);
+	box-shadow: 0 5px 0 rgba(43,43,43,0.70);
+	margin-bottom: -1px;
+}
+ul li:hover {
+	background: #555;
+	color: #fff;
+	text-decoration: none;
+}
+ul li ul {
+	padding: 0;
+	position: absolute;
+	top: 48px;
+	left: 0;
+	width: 150px;
+	-webkit-box-shadow: -5px 5px 15px 2px rgba(43,43,43,0.70);
+	-moz-box-shadow: none;
+	box-shadow: -5px 5px 15px 2px rgba(43,43,43,0.70);
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transiton: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	-ms-transition: opacity 0.2s;
+	-o-transition: opacity 0.2s;
+	-transition: opacity 0.2s;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+    a:visited { color: #FFFFFF; }
+    a:visited:hover { color: #FFFFFF; }    
+    a:active { color: gray; }
+
+ul li ul li {
+	background: #555;
+	display: block;
+	color: #fff;
+	text-shadow: 0 -1px 0 #000;
+	-webkit-box-shadow: 0px 0;
+	box-shadow: 0px 0;
+}
+ul li ul li:hover {
+	background: #666;
+	text-decoration: none;
+}
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  z-index: 5000;
+}
+
+	
+	
