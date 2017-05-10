@@ -1,11 +1,6 @@
 @charset "utf-8";
 @import url("../webfonts/Fontin_SmallCaps/stylesheet.css");
 
-html,body {
-    height:100%;
-}
-
-
 body {
 	font-family: "Fontin SmallCaps";
 	font-size: 18px;
@@ -17,8 +12,8 @@ body {
 	background-attachment: fixed;
 	-moz-font-feature-settings: "liga=0";
 	-moz-font-feature-settings: "liga" 0;
-	-webkit-font-feature-settings: "liga" 0;
-	overflow-y: auto;
+	-webkit-font-feature-settings:"liga" 0
+
 }
 
 ul {
@@ -31,6 +26,7 @@ ul {
 	-webkit-box-shadow: -5px 5px 10px 2px rgba(61,58,58,1.00);
 	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 	box-shadow: -5px 5px 10px 2px rgba(61,58,58,1.00);
+	width: 960px;
 	margin-right: auto;
 	margin-left: auto;
 	font-family: "Fontin SmallCaps";
@@ -43,10 +39,7 @@ ul li {
 	display: inline-block;
 	margin-right: -6px;
 	position: relative;
-	padding-top: 15px;
-	padding-right: 40px;
-	padding-left: 40px;
-	padding-bottom: 15px;
+	padding: 15px 20px;
 	background: #fff;
 	cursor: pointer;
 	-webkit-transition: all 0.2s;
@@ -68,7 +61,7 @@ ul li ul {
 	position: absolute;
 	top: 48px;
 	left: 0;
-	width: 220px;
+	width: 150px;
 	-webkit-box-shadow: -5px 5px 15px 2px rgba(43,43,43,0.70);
 	-moz-box-shadow: none;
 	box-shadow: -5px 5px 15px 2px rgba(43,43,43,0.70);
@@ -100,12 +93,6 @@ ul li ul li {
 	text-shadow: 0 -1px 0 #000;
 	-webkit-box-shadow: 0px 0;
 	box-shadow: 0px 0;
-	margin-top: -10px;
-	margin-right: -35px;
-	font-size: 17px;
-	-webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
 }
 ul li ul li:hover {
 	background: #666;
@@ -117,3 +104,6 @@ ul li:hover ul {
   visibility: visible;
   z-index: 5000;
 }
+
+	
+	
