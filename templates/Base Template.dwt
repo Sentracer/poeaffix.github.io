@@ -11,16 +11,43 @@
 <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
+
+
+
+
+
+
+
+
 </head>
-
 <body>
+<div id="wrapper"> 
+<header id="header">    
+<div id="logo">
+    <a href="../index.html"><img src="../images/header.png"/></a>
+</div>
+ 
+ 
+  
+  
+   
+ <div id="ad">
+ 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 728x90 Banner -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-7924380187053536"
+     data-ad-slot="5241339200"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
-<div id="wrapper">
-
-  <header id="header">
+</div>
+   
+   
+   
     
-    
-    <a href="../index.html"><img src="../images/header.png" width="1200" height="72" alt=""/></a>
     
 <nav id="mainav">
   <ul>
@@ -50,9 +77,9 @@
         <a href="../ch-ar.html"><li>Armour</li></a>
         <a href="../ch-ev.html"><li>Evasion</li></a>
         <a href="../ch-es.html"><li>Energy Shield</li></a>
-        <a href="../ch-ares.html"><li>Armour / Energy Shield</li></a>
-        <a href="../ch-arev.html"><li>Armour / Evasion</li></a>
-        <a href="../ch-eves.html"><li>Evasion / Energy Shield</li></a>
+        <a href="../ch-ares.html"><li>Armour and<br>Energy Shield</li></a>
+        <a href="../ch-arev.html"><li>Armour and<br>Evasion</li></a>
+        <a href="../ch-eves.html"><li>Evasion and<br>Energy Shield</li></a>
         <a href="../ch-garb.html"><li>Sacrificial Garb</li></a>
         </ul>
       </li>
@@ -61,9 +88,10 @@
         <a href="../hm-ar.html"><li>Armour</li></a>
         <a href="../hm-ev.html"><li>Evasion</li></a>
         <a href="../hm-es.html"><li>Energy Shield</li></a>
-        <a href="../hm-ares.html"><li>Armour / Energy Shield</li></a>
-        <a href="../hm-arev.html"><li>Armour / Evasion</li></a>
-        <a href="../hm-eves.html"><li>Evasion / Energy Shield</li></a>
+        <a href="../hm-ares.html"><li>Armour and<br>Energy Shield</li></a>
+        <a href="../hm-arev.html"><li>Armour and<br>Evasion</li></a>
+        <a href="../hm-eves.html"><li>Evasion and<br>Energy Shield</li></a>
+        <a href="../hm-enchant.html"><li>Enchantment</li></a>
         </ul>
       </li>
     <li>Gloves
@@ -71,9 +99,10 @@
         <a href="../gl-ar.html"><li>Armour</li></a>
         <a href="../gl-ev.html"><li>Evasion</li></a>
         <a href="../gl-es.html"><li>Energy Shield</li></a>
-        <a href="../gl-ares.html"><li>Armour / Energy Shield</li></a>
-        <a href="../gl-arev.html"><li>Armour / Evasion</li></a>
-        <a href="../gl-eves.html"><li>Evasion / Energy Shield</li></a>
+        <a href="../gl-ares.html"><li>Armour and<br>Energy Shield</li></a>
+        <a href="../gl-arev.html"><li>Armour and<br>Evasion</li></a>
+        <a href="../gl-eves.html"><li>Evasion and<br>Energy Shield</li></a>
+        <a href="../gl-enchant.html"><li>Enchantment</li></a>
         </ul>
       </li>
     <li>Boots
@@ -81,9 +110,10 @@
         <a href="../bt-ar.html"><li>Armour</li></a>
         <a href="../bt-ev.html"><li>Evasion</li></a>
         <a href="../bt-es.html"><li>Energy Shield</li></a>
-        <a href="../bt-ares.html"><li>Armour / Energy Shield</li></a>
-        <a href="../bt-arev.html"><li>Armour / Evasion</li></a>
-        <a href="../bt-eves.html"><li>Evasion / Energy Shield</li></a>
+        <a href="../bt-ares.html"><li>Armour and<br>Energy Shield</li></a>
+        <a href="../bt-arev.html"><li>Armour and<br>Evasion</li></a>
+        <a href="../bt-eves.html"><li>Evasion and<br>Energy Shield</li></a>
+        <a href="../gl-enchant.html"><li>Enchantment</li></a>
         </ul>
       </li>
     <li>Shield
@@ -91,16 +121,9 @@
         <a href="../sh-ar.html"><li>Armour</li></a>
         <a href="../sh-ev.html"><li>Evasion</li></a>
         <a href="../sh-es.html"><li>Energy Shield</li></a>
-        <a href="../sh-ares.html"><li>Armour / Energy Shield</li></a>
-        <a href="../sh-arev.html"><li>Armour / Evasion</li></a>
-        <a href="../sh-eves.html"><li>Evasion / Energy Shield</li></a>
-        </ul>
-      </li>
-    <li>Jewel
-      <ul>
-        <a href="../jw-cobalt.html"><li>Cobalt</li></a>
-        <a href="../jw-crimson.html"><li>Crimson</li></a>
-        <a href="../jw-viridian.html"><li>Viridian</li></a>
+        <a href="../sh-ares.html"><li>Armour and<br>Energy Shield</li></a>
+        <a href="../sh-arev.html"><li>Armour and<br>Evasion</li></a>
+        <a href="../sh-eves.html"><li>Evasion and<br>Energy Shield</li></a>
         </ul>
       </li>
     <li>Accessories
@@ -109,10 +132,11 @@
         <a href="../ac-belt.html"><li>Belt</li></a>
         <a href="../ac-ring.html"><li>Ring</li></a>
         <a href="../ac-quiver.html"><li>Quiver</li></a>
-        <a href="../ac-flask.html"><li>Flask</li></a>                
+        <a href="../ac-flask.html"><li>Flask</li></a>
+        <a href="../jw-all.html"><li>Jewel</li></a>                
         </ul>
       </li>
-      <li>Other
+    <li>Other
       <ul>
         <a href="../ot-map.html"><li>Map</li></a>
         <a href="../ot-box.html"><li>Strongbox</li></a>
@@ -122,236 +146,477 @@
 </nav>
     
     </header>
-  
+    <div id="paypal"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=S6L2QZULXFK7E"><img src="../images/paypal.png" /></a></div>
+    
+    
+<!-- TemplateBeginEditable name="article" -->   
+   
+   
+<div id="pageinfo">
   <article id="main">
-    <h2>Prefix</h2>
+    <h2>Test</h2>
   </article>
-  <!-- TemplateBeginEditable name="article" -->
+  
   <article id="main2">
-    <h2>Implicit</h2>
+    <h2>Test</h2>
   </article>
-  <!-- TemplateEndEditable -->
+  
   <article id="main3">
-    <h2>Suffix</h2>
+    <h2>Test</h2>
   </article>
-  
-  
-  
-  <!-- TemplateBeginEditable name="Body" -->  
-  <article id="item">
-   <div id=item><a href="#openModal1000" data-hover="Corruption">One Hand Mace
-    </a>
-    <div id="openModal1000" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="XXXXXX"> Content </div>
-      </div>
-    </div>
-   </div>
-  </article>
-  <aside class="left list" id="left"> <a href="#openModal1"> Adds # - # Physical Damage<br>
-    </a>
-    <div id="openModal1" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="vaganflatphys"> Content </div>
-      </div>
-    </div>
-    <a href="#openModal2"> #% increased Physical Damage<br>
-    </a>
-    <div id="openModal2" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="1hphys"> Content </div>
-      </div>
-    </div>
-    <a href="#openModal3"> #% increased Physical Damage / +# to Accuracy Rating<br>
-    </a>
-    <div id="openModal3" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="1hhybrid"> Content </div>
-      </div>
-    </div>
-    <a href="#openModal4"> +# to Level of Socketed Gems<br>
-    </a>
-    <div id="openModal4" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="gemlvl"> Content </div>
-      </div>
-    </div>
-    <a href="#openModal5"> +# to Level of Socketed Melee Gems<br>
-    </a>
-    <div id="openModal5" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="meleegem"> Content </div>
-      </div>
-    </div>
-    <a href="#openModal6"> #% of Physical Attack Damage Leeched as Life<br>
-    </a>
-    <div id="openModal6" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="vaganlleech"> Content </div>
-      </div>
-    </div>
-    <a href="#openModal7"> #% of Physical Attack Damage Leeched as Mana<br>
-    </a>
-    <div id="openModal7" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="vaganmleech"> Content </div>
-      </div>
-    </div>
-    <a href="#openModal8"> #% increased Elemental Damage with Weapons<br>
-    </a>
-    <div id="openModal8" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="vaganwed"> Content </div>
-      </div>
-    </div>
-    <a href="#openModal9"> Adds # - # Cold Damage<br>
-    </a>
-    <div id="openModal9" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="vaganflatcold"> Content </div>
-      </div>
-    </div>
-    <a href="#openModal10"> Adds # - # Fire Damage<br>
-    </a>
-    <div id="openModal10" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="vaganflatfire"> Content </div>
-      </div>
-    </div>
-    <a href="#openModal11"> Adds # - # Lightning Damage<br>
-    </a>
-    <div id="openModal11" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="vaganflatlight"> Content </div>
-      </div>
-    </div>
-  </aside>
-  <aside class="right list" id="right"> <a href="#openModal12"> +# to Accuracy Rating<br>
-    </a>
-    <div id="openModal12" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="wepacc"> Content </div>
-      </div>
-    </div>
-    <a href="#openModal13"> #% increased Light Radius / +# to Accuracy Rating<br>
-    </a>
-    <div id="openModal13" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="acchybrid"> Content </div>
-      </div>
-    </div>
-    <a href="#openModal14"> #% increased Attack Speed<br>
-    </a>
-    <div id="openModal14" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="atkspd"> Content </div>
-      </div>
-    </div>
-    <a href="#openModal15"> +# to Dexterity<br>
-    </a>
-    <div id="openModal15" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="vagandex"> Content </div>
-      </div>
-    </div>
-    <a href="#openModal16"> +# to Strength<br>
-    </a>
-    <div id="openModal16" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="vaganstr"> Content </div>
-      </div>
-    </div>
-    <a href="#openModal17"> #% increased Critical Strike Chance<br>
-    </a>
-    <div id="openModal17" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="vagancrit"> Content </div>
-      </div>
-    </div>
-    <a href="#openModal18"> #% increased Global Critical Strike Multiplier<br>
-    </a>
-    <div id="openModal18" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="vaganmulti"> Content </div>
-      </div>
-    </div>
-    <a href="#openModal19"> +# Life gained on Kill<br>
-    </a>
-    <div id="openModal19" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="lgok"> Content </div>
-      </div>
-    </div>
-    <a href="#openModal20"> +# Life gained for each Enemy hit by your Attacks<br>
-    </a>
-    <div id="openModal20" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="vaganlgoh"> Content </div>
-      </div>
-    </div>
-    <a href="#openModal21"> +# Mana gained on Kill<br>
-    </a>
-    <div id="openModal21" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="mgok"> Content </div>
-      </div>
-    </div>
-    <a href="#openModal22"> #% to Cold Resistance<br>
-    </a>
-    <div id="openModal22" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="vagancoldres"> Content </div>
-      </div>
-    </div>
-    <a href="#openModal23"> #% to Fire Resistance<br>
-    </a>
-    <div id="openModal23" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="vaganfireres"> Content </div>
-      </div>
-    </div>
-    <a href="#openModal24"> #% to Lightning Resistance<br>
-    </a>
-    <div id="openModal24" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="vaganlightres"> Content </div>
-      </div>
-    </div>
-    <a href="#openModal25"> #% to Chaos Resistance<br>
-    </a>
-    <div id="openModal25" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="chaosres"> Content </div>
-      </div>
-    </div>
-    <a href="#openModal26"> #% reduced Attribute Requirements<br>
-    </a>
-    <div id="openModal26" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="attreq"> Content </div>
-      </div>
-    </div>
-    <a href="#openModal27"> #% increased Stun Duration on Enemies<br>
-    </a>
-    <div id="openModal27" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="stundur"> Content </div>
-      </div>
-    </div>
-    <a href="#openModal28"> #% reduced Enemy Stun Threshold<br>
-    </a>
-    <div id="openModal28" class="modalDialog">
-      <div> <a href="#close" title="Close" class="close"></a>
-        <div id="stunthresh"> Content </div>
-      </div>
-    </div>
-  </aside>
-  <!-- TemplateEndEditable -->
-  <footer class="footer">
-    © 2015. This site is not affiliated with, endorsed, or sponsored by Grinding Gear Games.
-  </footer>  
 </div>
+ 
+ 
+<!-- TemplateEndEditable -->   
+<!-- TemplateBeginEditable name="Body" -->
+
+  
+      
+ <aside id="corruption">
+  <div id="item"><a href="#openModal1000">Test
+   </a>
+   <div id="openModal1000" class="modalDialog">
+     <div> <a href="#close" title="Close" class="close"></a>
+       <div id="1haxecorr"> Content </div>
+     </div>
+   </div>
+  </div>
+ </aside> 
+  
+  
+  
+<aside class="left list" id="left">
+<br><div class="seperator" align="center"><strong>Test Test Test Test</strong></div>
+<div class="affix">              
+    
+    
+    <div class="mod" onclick="toggle('mod1')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod1" class="VAL"> 
+      <ol><br>       
+       <li>Deals # to # Physical Damage</li>
+       <li>Chain +# times</li><br>
+        <li>Normal: 79 to 126 / 2 (Word)</li>
+        <li>Cruel: 381 to 585 / 3 (Edict)</li>
+        <li>Merciless: 985 to 1477 / 3 (Decree)</li>
+        <li>Map: 1833 to 2903 / 4 (Commandment)</li><br> 
+      </ol>     
+    </div>
+    
+    <div class="mod" onclick="toggle('mod2')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod2" class="VAL"> 
+      <ol><br>
+       <li>Deals # to # Fire Damage</li><br>
+        <li>Normal: 93 to 140 / 2 (Word)</li>
+        <li>Cruel: 409 to 601 / 3 (Edict)</li>
+        <li>Merciless: 999 to 1453 / 3 (Decree)</li>
+        <li>Map: 1800 to 2770 (Commandment)</li><br> 
+      </ol>     
+    </div>
+    
+    <div class="mod" onclick="toggle('mod3')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod3" class="VAL"> 
+      <ol><br>
+       <li>Deals # to # Cold Damage</li><br>
+        <li>Normal: 72 to 114 (Word)</li>
+        <li>Cruel: 332 to 509 (Edict)</li>
+        <li>Merciless: 836 to 1254 (Decree)</li>
+        <li>Map: 1530 to 2422 (Commandment)</li><br> 
+      </ol>     
+    </div>
+    
+    <div class="mod" onclick="toggle('mod4')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod4" class="VAL"> 
+      <ol><br>
+       <li>Minions Explode on Death for #% max Life at end of Duration </li><br>
+        <li>Normal: 20 (Word)</li>
+        <li>Cruel: 20 (Edict)</li>
+        <li>Merciless: 20 (Decree)</li>
+        <li>Map: 20 (Commandment)</li><br> 
+      </ol>     
+    </div>
+    
+    <div class="mod" onclick="toggle('mod5')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod5" class="VAL"> 
+      <ol><br>
+        <li>Deals #% of Base Attack Damage</li><br>
+        <li>Normal: 135% (Word)</li>
+        <li>Cruel: 189 (Edict)</li>
+        <li>Merciless: 243 (Decree)</li>
+        <li>Map: 297 (Commandment)</li><br> 
+      </ol>     
+    </div>
+    
+    <div class="mod" onclick="toggle('mod6')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod6" class="VAL"> 
+      <ol><br>
+       <li>Deals #% of Base Attack Damage</li>
+        <li>50% of Physical Damage Converted to Fire Damage</li><br>
+        <li>Normal: 150 (Word)</li>
+        <li>Cruel: 210 (Edict)</li>
+        <li>Merciless: 270 (Decree)</li>
+        <li>Map: 330 (Commandment)</li><br> 
+      </ol>     
+    </div>
+    
+    <div class="mod" onclick="toggle('mod7')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod7" class="VAL"> 
+      <ol><br>
+        <li>Deals # to # Fire Damage</li><br>
+        <li>Normal: 155 to 249 (Word)</li>
+        <li>Cruel: 722 to 1107 (Edict)</li>
+        <li>Merciless: 1817 to 2725 (Decree)</li>
+        <li>Map: 3324 to 5263 (Commandment)</li><br> 
+      </ol>     
+    </div>
+    
+    <div class="mod" onclick="toggle('mod8')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod8" class="VAL"> 
+      <ol><br>
+        <li>4% of maximum Life regenerated per second on Consentrated Ground</li>
+        <li>Deals #% of Base Attack Damage</li><br>
+        <li>Normal: 135 (Word)</li>
+        <li>Cruel: 189 (Edict)</li>
+        <li>Merciless: 243 (Decree)</li>
+        <li>Map: 297 (Commandment)</li><br> 
+      </ol>     
+    </div>
+    
+    <div class="mod" onclick="toggle('mod9')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod9" class="VAL"> 
+      <ol><br>
+        <li>Minions deal #% more Damage</li><br>
+        <li>Normal: 100 (Word)</li>
+        <li>Cruel: 200 (Edict)</li>
+        <li>Merciless: 300 (Decree)</li>
+        <li>Map: 400 (Commandment)</li><br> 
+      </ol>     
+    </div>
+    
+    <div class="mod" onclick="toggle('mod10')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod10" class="VAL"> 
+      <ol><br>
+       <li>Deals #% of Base Attack Damage</li>
+        <li>50% of Physical Damage Converted to Cold Damage</li><br>
+        <li>Normal: 150 (Word)</li>
+        <li>Cruel: 210 (Edict)</li>
+        <li>Merciless: 270 (Decree)</li>
+        <li>Map: 330 (Commandment)</li><br> 
+      </ol>     
+    </div>
+    
+    <div class="mod" onclick="toggle('mod11')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod11" class="VAL"> 
+      <ol><br>
+        <li>Deals # to # Lightning Damage</li><br>
+        <li>Normal: 175 to 280 (Word)</li>
+        <li>Cruel: 812 to 1245 (Edict)</li>
+        <li>Merciless: 2044 to 3065 (Decree)</li>
+        <li>Map: 2044 to 3065 (Commandment)</li><br> 
+      </ol>     
+    </div>
+    
+    <div class="mod" onclick="toggle('mod12')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod12" class="VAL"> 
+      <ol><br>
+        <li>Deals # to # Lightning Damage</li><br>
+        <li>Normal: 71 to 114 / 8 (Word)</li>
+        <li>Cruel: 330 to 506 / 8 (Edict)</li>
+        <li>Merciless: 830 to 1245 (Decree)</li>
+        <li>Map: 1519 to 2405 (Commandment)</li><br> 
+      </ol>     
+    </div>
+    
+    <div class="mod" onclick="toggle('mod13')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod13" class="VAL"> 
+      <ol><br>
+        <li>Deals # to # Cold Damage</li><br>
+        <li>Normal: 48 to 76 / 8 (Word)</li>
+        <li>Cruel: 221 to 340 (Edict)</li>
+        <li>Merciless: 557 to 836 (Decree)</li>
+        <li>Map: 1020 to 1615 (Commandment)</li><br> 
+      </ol>     
+    </div>
+    
+    <div class="mod" onclick="toggle('mod14')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod14" class="VAL"> 
+      <ol><br>
+        <li>Minions deal #% more Damage</li><br>
+        <li>Normal: 50 (Word)</li>
+        <li>Cruel: 100 (Edict)</li>
+        <li>Merciless: 150 (Decree)</li>
+        <li>Map: 200 (Commandment)</li><br> 
+      </ol>     
+    </div>
+    
+    <div class="mod" onclick="toggle('mod15')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod15" class="VAL"> 
+      <ol><br>
+       <li>Deals #% of Base Attack Damage</li>
+        <li>50% of Physical Damage Converted to Lightning Damage</li><br>
+        <li>Normal: 60 (Word)</li>
+        <li>Cruel:  90 (Edict)</li>
+        <li>Merciless: 120 (Decree)</li>
+        <li>Map: 150 (Commandment)</li><br> 
+      </ol>     
+    </div>
+    
+
+</div>
+</aside>
+
+
+<aside class="right list" id="right">
+<br><div class="seperator" align="center"><strong>Test Test Test Test</strong></div>
+<div class="affix">
+	
+   
+    <div class="mod" onclick="toggle('mod16')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod16" class="VAL"> 
+      <ol><br>
+        <li>Cruel:  44 to 64</li>
+        <li>Merciless:  88 to 132</li>
+        <li>Map: 120 to 180</li><br> 
+      </ol>     
+    </div>
+ 
+    <div class="mod" onclick="toggle('mod17')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod17" class="VAL"> 
+      <ol><br>
+        <li>Cruel:  16 to 24</li>
+        <li>Merciless:  33 to 50</li>
+        <li>Map: 45 to 68</li><br> 
+      </ol>     
+    </div>
+ 
+    <div class="mod" onclick="toggle('mod20')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod20" class="VAL"> 
+      <ol><br>
+        <li>Cruel:  16 to 24</li>
+        <li>Merciless:  33 to 50</li>
+        <li>Map: 45 to 68</li><br> 
+      </ol>     
+    </div>
+ 
+    <div class="mod" onclick="toggle('mod26')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod26" class="VAL"> 
+      <ol><br>
+        <li>Cruel:  1 to 56</li>
+        <li>Merciless:  1 to 120</li>
+        <li>Map: 1 to 160</li><br> 
+      </ol>     
+    </div>
+ 
+    <div class="mod" onclick="toggle('mod21')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod21" class="VAL"> 
+      <ol><br>
+        <li>Cruel:  60</li>
+        <li>Merciless:  90</li>
+        <li>Map: 120</li><br> 
+      </ol>     
+    </div>
+ 
+    <div class="mod" onclick="toggle('mod19')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod19" class="VAL"> 
+      <ol><br>
+        <li>Cruel:  6</li>
+        <li>Merciless:  8</li>
+        <li>Map: 10</li><br> 
+      </ol>     
+    </div>
+ 
+    <div class="mod" onclick="toggle('mod22')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod22" class="VAL"> 
+      <ol><br>
+        <li>Cruel:  6</li>
+        <li>Merciless:  8</li>
+        <li>Map: 10</li><br> 
+      </ol>     
+    </div>
+ 
+    <div class="mod" onclick="toggle('mod23')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod23" class="VAL"> 
+      <ol><br>
+        <li>Cruel:  6</li>
+        <li>Merciless:  8</li>
+        <li>Map: 10</li><br> 
+      </ol>     
+    </div>
+ 
+    <div class="mod" onclick="toggle('mod24')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod24" class="VAL"> 
+      <ol><br>
+        <li>Cruel:  0.4</li>
+        <li>Merciless:  0.5</li>
+        <li>Map: 0.6</li><br> 
+      </ol>     
+    </div>
+ 
+    <div class="mod" onclick="toggle('mod25')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod25" class="VAL"> 
+      <ol><br>
+        <li>Cruel:  1</li>
+        <li>Merciless:  1.5</li>
+        <li>Map: 2</li><br> 
+      </ol>     
+    </div>
+ 
+    <div class="mod" onclick="toggle('mod27')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod27" class="VAL"> 
+      <ol><br>
+        <li>Cruel:  10</li>
+        <li>Merciless:  14</li>
+        <li>Map: 18</li><br> 
+      </ol>     
+    </div>
+ 
+    <div class="mod" onclick="toggle('mod28')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod28" class="VAL"> 
+      <ol><br>
+        <li>Cruel:  6</li>
+        <li>Merciless:  8</li>
+        <li>Map: 10</li><br> 
+      </ol>     
+    </div>
+ 
+    <div class="mod" onclick="toggle('mod29')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod29" class="VAL"> 
+      <ol><br>
+        <li>Cruel:  5</li>
+        <li>Merciless:  6</li>
+        <li>Map: 8</li><br> 
+      </ol>     
+    </div>
+ 
+    <div class="mod" onclick="toggle('mod30')">
+      <a href="#/" type="changecolor">Test Test Test Test<br></a></div>
+     <div id="mod30" class="VAL"> 
+      <ol><br>
+        <li>Test Test Test Test</li>
+        <li>Test Test Test Test</li>
+        <li>Test Test Test Test</li><br> 
+      </ol>     
+    </div>
+    
+    
+</div> 
+</aside> 
+  
+  
+<!-- TemplateEndEditable -->
+  
+  
+  
+  
+<div id="ADBAR">
+<div id="TopSideBarAd">
+
+ <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 300x250 Display -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-7924380187053536"
+     data-ad-slot="3764606006"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+
+</div> 
+  
+  
+   
+<div id="lowermiddlesidebarad">   
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 300x250 Text Only -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-7924380187053536"
+     data-ad-slot="9811139608"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+</div>
+   
+           
+    
+<div id="uppermiddlesidebarad">   
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 300x600 Display Only -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-7924380187053536"
+     data-ad-slot="2287872807"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+    
+    
+    
+
+    
+    
+    
+<div id="bottomsidebarad">   
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Generic 300x250 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-7924380187053536"
+     data-ad-slot="6329622804"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>  
+</div> 
+
+
+</div>
+
+ 
+ 
+  
+<footer class="footer">
+    <div id="footermsg">© 2015-2017. This site is not affiliated with, endorsed, or sponsored by Grinding Gear Games.</div>
+    
+    
+
+
+
 <script type="text/javascript" src="../js/closemodal.js"></script>
-<script type="text/javascript" src="../js/mod.js"></script>
+<script type="text/javascript" src="../js/mod.js"></script>  
+    
+</footer>  
+</div>
+
+
+
 </body>
 </html>

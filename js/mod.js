@@ -1,4 +1,21 @@
 // JavaScript Document
+'use strict';
+
+function toggle(Info) {
+  var CState = document.getElementById(Info);
+  CState.style.display = (CState.style.display !== 'block') ? 'block' : 'none';
+} 
+
+
+
+
+$('a[type="changecolor"]').click(function(){
+  $(this).toggleClass('bold');
+});
+
+
+
+
 
 
 $( "#AbyssalCry" ).load( "templates/enchant.html #AbyssalCry" 
@@ -1052,18 +1069,10 @@ $( "#Fracturing" ).load( "templates/map.html #Fracturing"
 
   
   
+
   
   
-  
-  
-  
-  
-        
-function toggle(Info) {
-  var CState = document.getElementById(Info);
-  CState.style.display = (CState.style.display != 'block')
-                       ? 'block' : 'none';
-}    
-  
+       
+
   
   

@@ -1,7 +1,7 @@
 // JavaScript Document
 
 function modalClose() {
-    if (location.hash == '#openModal1000') {
+    if (location.hash === '#openModal1000') {
         location.hash = 'id';
     }
 	if (location.hash == '#openModal0') {
