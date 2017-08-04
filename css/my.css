@@ -1,7 +1,7 @@
 .bold {
 	font-weight: bold !important;
 	font-size: 19px!important;
-	color: rgba(137,136,136,1.00);
+	color: #898888;
 }
 
 .affix {
@@ -13,6 +13,7 @@
 	margin-top: -84px;
 	margin-bottom: 15px;
 	padding-bottom: 10px;
+		
 }
 #right #index {
 	width: 930px;
@@ -540,29 +541,29 @@ h3 {
 	border-bottom: 2px solid rgba(96,95,95,1.00);
 }
 #wrapper #Mleft {
-	width: 360px;
+	width: 400px;
 	float: left;
-	padding-right: 20px;
-	padding-left: 20px;
+	padding-right: 0px;
+	padding-left: 40px;
 	display: block;
-	padding-top: 40px;
+	padding-top: 20px;
 	padding-bottom: 40px;
 }
 #wrapper #Mcenter {
-	width: 360px;
+	width: 400px;
 	float: left;
-	padding-right: 19px;
-	padding-left: 19px;
-	padding-top: 40px;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-top: 20px;
 	padding-bottom: 40px;
 }
 #wrapper #Mright {
-	width: 360px;
+	width: 400px;
 	float: left;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
 	display: block;
-	padding-top: 40px;
+	padding-top: 20px;
 }
 #wrapper #skills a {
 	color: rgba(0,0,0,1.00);
@@ -580,7 +581,7 @@ h3 {
 		
 }
 #wrapper #skills {
-	width: 1200px;
+	width: 1350px;
 	font-size: 17px;
 	text-align: left;
 	display: block;
@@ -588,6 +589,7 @@ h3 {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	height: auto;
+	background-color:blue
 
 
 }

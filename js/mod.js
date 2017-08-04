@@ -16,6 +16,20 @@ $('a[type="changecolor"]').click(function(){
 
 
 
+$(document).ready(function () {
+    $('.text').hide();
+    $('.expander').click(function () {
+        // .parent() selects the A tag, .next() selects the P tag
+        $(this).parent().next().slideToggle(0);
+    });
+    $('.text').slideUp(0);
+});
+ 
+
+
+
+
+
 
 
 $( "#AbyssalCry" ).load( "templates/enchant.html #AbyssalCry" 
@@ -473,80 +487,79 @@ $( "#1hmacecraftp" ).load( "templates/master.html #1hmacecraftp"
 $( "#1hmacecrafts" ).load( "templates/master.html #1hmacecrafts" 
   );   
 $( "#sceptrecraftp" ).load( "templates/master.html #sceptrecraftp" 
-  )
+  );
 $( "#sceptrecrafts" ).load( "templates/master.html #sceptrecrafts" 
-  )  
+  );  
 $( "#1hswordcraftp" ).load( "templates/master.html #1hswordcraftp" 
-  )  
+  );  
 $( "#1hswordcrafts" ).load( "templates/master.html #1hswordcrafts" 
-  )  
+  );  
 $( "#wandcraftp" ).load( "templates/master.html #wandcraftp" 
-  )   
+  );   
 $( "#wandcrafts" ).load( "templates/master.html #wandcrafts" 
-  ) 
+  ); 
 $( "#2haxep" ).load( "templates/master.html #2haxep" 
-  )   
+  );   
 $( "#2haxes" ).load( "templates/master.html #2haxes" 
-  )  
+  );  
 $( "#bowcraftp" ).load( "templates/master.html #bowcraftp" 
-  )   
+  );   
 $( "#bowcrafts" ).load( "templates/master.html #bowcrafts" 
-  )   
+  );   
 $( "#2hmacecraftp" ).load( "templates/master.html #2hmacecraftp" 
-  )  
+  );  
 $( "#2hmacecrafts" ).load( "templates/master.html #2hmacecrafts" 
-  ) 
+  ); 
 $( "#2hmacecrafts" ).load( "templates/master.html #2hmacecrafts" 
-  )   
+  );   
 $( "#staffcraftp" ).load( "templates/master.html #staffcraftp" 
-  )   
+  );   
 $( "#staffcrafts" ).load( "templates/master.html #staffcrafts" 
-  )  
+  );  
 $( "#2hswordcrafts" ).load( "templates/master.html #2hswordcrafts" 
-  )  
+  );  
 $( "#2hswordcraftp" ).load( "templates/master.html #2hswordcraftp" 
-  )    
+  );    
 $( "#chestcraftp" ).load( "templates/master.html #chestcraftp" 
-  )   
+  );   
 $( "#chestcrafts" ).load( "templates/master.html #chestcrafts" 
-  )    
+  );    
 $( "#helmcraftp" ).load( "templates/master.html #helmcraftp" 
-  )  
+  );  
 $( "#helmcrafts" ).load( "templates/master.html #helmcrafts" 
-  )  
+  );  
 $( "#glovecrafts" ).load( "templates/master.html #glovecrafts" 
-  )   
+  );   
 $( "#glovecraftp" ).load( "templates/master.html #glovecraftp" 
-  )   
+  );   
 $( "#shieldcrafts" ).load( "templates/master.html #shieldcrafts" 
-  )   
+  );   
 $( "#shieldcraftp" ).load( "templates/master.html #shieldcraftp" 
-  )   
+  );   
 $( "#bootcrafts" ).load( "templates/master.html #bootcrafts" 
-  )   
+  );   
 $( "#bootcraftp" ).load( "templates/master.html #bootcraftp" 
-  )  
+  );  
 $( "#ammycrafts" ).load( "templates/master.html #ammycrafts" 
-  )   
+  );  
 $( "#ammycraftp" ).load( "templates/master.html #ammycraftp" 
-  )   
+  );   
 $( "#beltcrafts" ).load( "templates/master.html #beltcrafts" 
-  )   
+  );   
 $( "#beltcraftp" ).load( "templates/master.html #beltcraftp" 
-  )   
+  );   
 $( "#quivcrafts" ).load( "templates/master.html #quivcrafts" 
-  )   
+  );   
 $( "#quivcraftp" ).load( "templates/master.html #quivcraftp" 
-  )   
+  );   
 $( "#ringcrafts" ).load( "templates/master.html #ringcrafts" 
-  )   
+  );   
 $( "#ringcraftp" ).load( "templates/master.html #ringcraftp" 
-  )
-  
+  );  
 $( "#rods" ).load( "templates/prefix.html #rods" 
-  )   
+  );  
 $( "#rodp" ).load( "templates/prefix.html #rodp" 
-  )  
+  );  
   
   
 $( "#chaosgem" ).load( "templates/prefix.html #chaosgem" 
