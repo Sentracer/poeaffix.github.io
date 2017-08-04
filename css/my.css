@@ -632,6 +632,7 @@ a.specialeffects:hover {
 	height: 250px;
 	margin-bottom: 20px;
 	float: right;
+	background-image: url(../images/whitelist.png);
 }
 #uppermiddlesidebarad {
 	width: 300px;
