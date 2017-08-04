@@ -74,6 +74,8 @@ $( "#BurningArrow" ).load( "templates/enchant.html #BurningArrow"
   );
 $( "#CausticArrow" ).load( "templates/enchant.html #CausticArrow" 
   );
+$( "#ChargedDash" ).load( "templates/enchant.html #ChargedDash" 
+  );
 $( "#ChaosGolem" ).load( "templates/enchant.html #ChaosGolem" 
   );
 $( "#Clarity" ).load( "templates/enchant.html #Clarity" 
@@ -91,6 +93,8 @@ $( "#ConversionTrap" ).load( "templates/enchant.html #ConversionTrap"
 $( "#Convocation" ).load( "templates/enchant.html #Convocation" 
   );
 $( "#Cyclone" ).load( "templates/enchant.html #Cyclone" 
+  );
+$( "#DarkPact" ).load( "templates/enchant.html #DarkPact" 
   );
 $( "#DecoyTotem" ).load( "templates/enchant.html #DecoyTotem" 
   );
@@ -283,6 +287,8 @@ $( "#StaticStrike" ).load( "templates/enchant.html #StaticStrike"
 $( "#LightningGolem" ).load( "templates/enchant.html #LightningGolem" 
   );
 $( "#StoneGolem" ).load( "templates/enchant.html #StoneGolem" 
+  );
+$( "#StormBurst" ).load( "templates/enchant.html #StormBurst" 
   );
 $( "#StormCall" ).load( "templates/enchant.html #StormCall" 
   );
