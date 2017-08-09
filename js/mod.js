@@ -62,6 +62,8 @@ $( "#BladeVortex" ).load( "templates/enchant.html #BladeVortex"
   );  
 $( "#Bladefall" ).load( "templates/enchant.html #Bladefall" 
   );
+$( "#BladeFlurry" ).load( "templates/enchant.html #BladeFlurry" 
+  );
 $( "#BlastRain" ).load( "templates/enchant.html #BlastRain" 
   );
 $( "#BlinkArrow" ).load( "templates/enchant.html #BlinkArrow" 
