@@ -266,6 +266,8 @@ $( "#RighteousFire" ).load( "templates/enchant.html #RighteousFire"
   );
 $( "#Riposte" ).load( "templates/enchant.html #Riposte" 
   );
+$( "#ScorchingRay" ).load( "templates/enchant.html #ScorchingRay" 
+  );
 $( "#SearingBond" ).load( "templates/enchant.html #SearingBond" 
   );
 $( "#ShieldCharge" ).load( "templates/enchant.html #ShieldCharge" 
