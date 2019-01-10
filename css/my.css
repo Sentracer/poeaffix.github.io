@@ -13,9 +13,9 @@
 	margin-top: -84px;
 	margin-bottom: 15px;
 	padding-bottom: 10px;
-		
+
 }
-#right #index {
+#right .index {
 	width: 930px;
 	margin-left: -335px;
 	margin-top: -85px;
@@ -330,7 +330,7 @@ h1 {
 	padding-bottom: 20px;
 	border-radius: 0px;
 	background: #fff;
-		
+
 	}
 
 
@@ -351,10 +351,10 @@ h1 {
 
 	.close:hover {
 	background: #F0F0F0;
-	color: #000;	
+	color: #000;
 	text-decoration: none;
 }
-	
+
 #wrapper #right a {
 	color: #131313;
 	font-size: 17px;
@@ -371,7 +371,7 @@ h1 {
 	background-color: rgba(96,95,95,1.00);
 	padding-left: 1px;
 	padding-right: 1px;
-	
+
 }
 #wrapper #left a:hover {
 	text-decoration: none;
@@ -433,7 +433,7 @@ h3 {
 .VAL {
 	display: none;
 	background-color: rgba(255,255,255,1.00);
-	
+
 }
 #wrapper #implicitleft {
 	background-color: rgba(195,195,195,1.00);
@@ -578,7 +578,7 @@ h3 {
 	margin-left: -5px;
 	margin-right: -5px;
 	display: block;
-		
+
 }
 #wrapper #skills {
 	width: 1350px;
@@ -620,7 +620,7 @@ h3 {
 
 a.specialeffects:hover {
   color: #00BFFF!important;
-  
+
 }
 #ADBAR  {
 	width: 300px;
