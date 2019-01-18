@@ -26,7 +26,31 @@ $(document).ready(function () {
     });
     $('.text').slideUp(0);
 });
-
+var sanitizeNumber = x => +x || 0;
+$(document).ready(function () {
+  var textHook = document.getElementById("ilvlInput");
+  if(textHook == null) return;
+  var filter = 0;
+  $(textHook).on('change keyup',function(){
+    // should be a number now
+    var x = sanitizeNumber($(textHook).val());
+    if(+x < 0) return;
+    if(filter  == 0 && x == 0) return;
+    if(filter  == x) return;
+    filter=x;
+    console.log('filter is ',filter);
+      $("li[data-ilvl]").each(function (){
+        var $li = $(this);
+        if (filter < 1){
+          $li.show();
+        } else {
+          // https://stackoverflow.com/questions/5309926/how-to-get-the-data-id-attribute
+          var liLvl = sanitizeNumber($li.data("ilvl"));
+          if(liLvl > x) {$li.hide();} else {$li.show();}
+        }
+      });
+  });
+});
 
 
 
