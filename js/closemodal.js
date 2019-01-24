@@ -8,6 +8,9 @@ document.addEventListener('keyup', function(e) {
         modalClose();
     }
 });
+document.addEventListener('click', function(e){
+    modalClose();
+});
 var setupModal = document.querySelectorAll("[id^='#openModal']").forEach(x =>
     {
         if (x == null) throw "bad href?"
