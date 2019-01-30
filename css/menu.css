@@ -20,7 +20,7 @@ body {
 	overflow-y: auto;
 }
 
-ul {
+header ul {
 	text-align: left;
 	display: inline;
 	padding-top: 15px;
@@ -34,7 +34,7 @@ ul {
 	margin-left: auto;
 	font-family: "Fontin SmallCaps";
 }
-ul li {
+header ul li {
 	line-height: 18px;
 	font-weight: bold;
 	font-size: 16px;
@@ -57,12 +57,12 @@ ul li {
 	box-shadow: 0 5px 0 rgba(43,43,43,0.70);
 	margin-bottom: -1px;
 }
-ul li:hover {
+header ul li:hover {
 	background: #555;
 	color: #fff;
 	text-decoration: none;
 }
-ul li ul {
+header ul li ul {
 	padding: 0;
 	position: absolute;
 	top: 48px;
@@ -88,11 +88,11 @@ a:link {
 	text-decoration: none;
 }
 
-    a:visited { color: #FFFFFF; }
-    a:visited:hover { color: #FFFFFF; }    
-    a:active { color: gray; }
+a:visited { color: #FFFFFF; }
+a:visited:hover { color: #FFFFFF; }
+a:active { color: gray; }
 
-ul li ul li {
+header ul li ul li {
 	background: #555;
 	display: block;
 	color: #fff;
@@ -106,11 +106,11 @@ ul li ul li {
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
 }
-ul li ul li:hover {
+header ul li ul li:hover {
 	background: #666;
 	text-decoration: none;
 }
-ul li:hover ul {
+header ul li:hover ul {
   display: block;
   opacity: 1;
   visibility: visible;
