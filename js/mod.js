@@ -58,7 +58,11 @@ $(document).ready(function () {
 // load mainnav if empty
 (() => {
   var $nav = $("#mainav");
-  if ($nav && $nav.length && $nav.length == 1 && $nav.children().length == 0) {
+  if ($nav && $nav.length && $nav.length == 1) {
+    console.log("mainav children",$nav.children())
+    if($nav.children().length == 0){
+      console.log("no children found");
+    } else return;
     if (document.location.toString().indexOf("RePoE") > 1) {
       $nav.load("../index.html #mainav");
     } else {
