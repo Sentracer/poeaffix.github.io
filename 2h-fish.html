@@ -1,626 +1,413 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <link href="css/my.css" rel="stylesheet" type="text/css" />
-    <link href="css/menu.css" rel="stylesheet" type="text/css" />
-    <title>Fishing Rods</title>
-    <script src="js/jquery-1.10.2.js"></script>
-    <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<html><!-- InstanceBegin template="/templates/Base Template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Fishing Rod</title>
+<!-- InstanceEndEditable -->
+<link href="css/my.css" rel="stylesheet" type="text/css">
+<link href="css/menu.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.10.2.js"></script>
+<link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-98200285-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+
+
+</head>
+<body>
+<div id="wrapper"> 
+<header id="header">    
+<div id="logo">
+    <a href="index.html"><img src="images/header.png"/></a>
+</div>
+ 
+ 
+  
+  
+   
+ <div id="ad">
+ 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 728x90 Banner -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-7924380187053536"
+     data-ad-slot="5241339200"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</div>
+   
+   
+   
     
-      ga('create', 'UA-98200285-1', 'auto');
-      ga('send', 'pageview');</script>
-    <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
-  </head>
-  <body>
-    <div id="wrapper">
-      <header id="header">
-        <div id="logo">
-          <a href="index.html">
-            <img src="images/header.png" alt="header" />
-          </a>
-        </div>
-        <div id="ad">
-          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- 728x90 Banner -->          <ins class="adsbygoogle" style="display: inline-block; width: 728px; height: 90px;" data-ad-client="ca-pub-7924380187053536" data-ad-slot="5241339200" />
-          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-        </div>
-        <nav id="mainav" />
-      </header>
-      <div id="paypal">
-        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=S6L2QZULXFK7E">
-          <img src="images/paypal.png" alt="paypal" />
-        </a>
-      </div>
-      <div id="pageinfo">
-        <article id="main">
-          <h2>Prefix</h2>
-        </article>
-        <article id="main2">
-          <h2>Fishing Rods</h2>
-        </article>
-        <article id="main3">
-          <h2>Suffix</h2>
-        </article>
-      </div>
-      <aside id="corruption">
-        <div id="ilvlFilter">
-          <label>ILvl filter</label>
-          <input id="ilvlInput" type="number" />
-        </div>
-        <div class="item">
-          <a href="#openModal1000">Corruption</a>
-          <div id="openModal1000" class="modalDialog">
-            <div>
-              <a href="#close" title="Close" class="close">x</a>
-              <div id="fishcorr"> Content </div>
-            </div>
-          </div>
-        </div>
-      </aside>
-      <aside id="left" class="left list">
-        <br />
-        <div class="modContainer" data-bucket="Prefix">
-          <br />
-          <div class="seperator">
-            <strong>Prefix</strong>
-          </div>
-          <div class="affix">
-            <div data-descr="# % increased Physical Damage +# to Accuracy Rating" class="modWrapper" data-modfor="0">
-              <div class="mod" onclick="toggle('mod0')">
-                <a href="#/" type="changecolor"><span class='mod-value'>#</span>% increased Physical Damage<br><span class='mod-value'>+#</span> to Accuracy Rating
-</a>
-              </div>
-              <div id="mod0" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="1" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=physical">iLvl 1: <span class='mod-value'>(15&ndash;19)</span>% increased Physical Damage<br><span class='mod-value'>3&ndash;7</span> to Accuracy Rating <span class="glyphicon glyphicon-info-sign"></span> (Squire's)T8</li>
-                  <li data-ilvl="11" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=physical">iLvl 11: <span class='mod-value'>(20&ndash;24)</span>% increased Physical Damage<br><span class='mod-value'>8&ndash;30</span> to Accuracy Rating <span class="glyphicon glyphicon-info-sign"></span> (Journeyman's)T7</li>
-                  <li data-ilvl="23" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=physical">iLvl 23: <span class='mod-value'>(25&ndash;34)</span>% increased Physical Damage<br><span class='mod-value'>31&ndash;50</span> to Accuracy Rating <span class="glyphicon glyphicon-info-sign"></span> (Reaver's)T6</li>
-                  <li data-ilvl="35" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=physical">iLvl 35: <span class='mod-value'>(35&ndash;44)</span>% increased Physical Damage<br><span class='mod-value'>51&ndash;64</span> to Accuracy Rating <span class="glyphicon glyphicon-info-sign"></span> (Mercenary's)T5</li>
-                  <li data-ilvl="46" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=physical">iLvl 46: <span class='mod-value'>(45&ndash;54)</span>% increased Physical Damage<br><span class='mod-value'>65&ndash;82</span> to Accuracy Rating <span class="glyphicon glyphicon-info-sign"></span> (Champion's)T4</li>
-                  <li data-ilvl="60" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=physical">iLvl 60: <span class='mod-value'>(55&ndash;64)</span>% increased Physical Damage<br><span class='mod-value'>83&ndash;99</span> to Accuracy Rating <span class="glyphicon glyphicon-info-sign"></span> (Conqueror's)T3</li>
-                  <li data-ilvl="73" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=physical">iLvl 73: <span class='mod-value'>(65&ndash;74)</span>% increased Physical Damage<br><span class='mod-value'>100&ndash;134</span> to Accuracy Rating <span class="glyphicon glyphicon-info-sign"></span> (Emperor's)T2</li>
-                  <li data-ilvl="83" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=physical">iLvl 83: <span class='mod-value'>(75&ndash;79)</span>% increased Physical Damage<br><span class='mod-value'>135&ndash;169</span> to Accuracy Rating <span class="glyphicon glyphicon-info-sign"></span> (Dictator's)T1</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="# % increased Physical Damage" class="modWrapper" data-modfor="1">
-              <div class="mod" onclick="toggle('mod1')">
-                <a href="#/" type="changecolor"><span class='mod-value'>#</span>% increased Physical Damage
-</a>
-              </div>
-              <div id="mod1" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="1" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=physical">iLvl 1: <span class='mod-value'>(40&ndash;49)</span>% increased Physical Damage <span class="glyphicon glyphicon-info-sign"></span> (Heavy)T8</li>
-                  <li data-ilvl="11" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=physical">iLvl 11: <span class='mod-value'>(50&ndash;64)</span>% increased Physical Damage <span class="glyphicon glyphicon-info-sign"></span> (Serrated)T7</li>
-                  <li data-ilvl="23" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=physical">iLvl 23: <span class='mod-value'>(65&ndash;84)</span>% increased Physical Damage <span class="glyphicon glyphicon-info-sign"></span> (Wicked)T6</li>
-                  <li data-ilvl="35" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=physical">iLvl 35: <span class='mod-value'>(85&ndash;109)</span>% increased Physical Damage <span class="glyphicon glyphicon-info-sign"></span> (Vicious)T5</li>
-                  <li data-ilvl="46" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=physical">iLvl 46: <span class='mod-value'>(110&ndash;134)</span>% increased Physical Damage <span class="glyphicon glyphicon-info-sign"></span> (Bloodthirsty)T4</li>
-                  <li data-ilvl="60" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=physical">iLvl 60: <span class='mod-value'>(135&ndash;154)</span>% increased Physical Damage <span class="glyphicon glyphicon-info-sign"></span> (Cruel)T3</li>
-                  <li data-ilvl="73" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=physical">iLvl 73: <span class='mod-value'>(155&ndash;169)</span>% increased Physical Damage <span class="glyphicon glyphicon-info-sign"></span> (Tyrannical)T2</li>
-                  <li data-ilvl="83" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=physical">iLvl 83: <span class='mod-value'>(170&ndash;179)</span>% increased Physical Damage <span class="glyphicon glyphicon-info-sign"></span> (Merciless)T1</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="# % increased Elemental Damage with Attack Skills" class="modWrapper" data-modfor="2">
-              <div class="mod" onclick="toggle('mod2')">
-                <a href="#/" type="changecolor"><span class='mod-value'>#</span>% increased Elemental Damage with Attack Skills
-</a>
-              </div>
-              <div id="mod2" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="4" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=elemental">iLvl 4: <span class='mod-value'>(5&ndash;10)</span>% increased Elemental Damage with Attack Skills <span class="glyphicon glyphicon-info-sign"></span> (Catalysing)T5</li>
-                  <li data-ilvl="15" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=elemental">iLvl 15: <span class='mod-value'>(11&ndash;20)</span>% increased Elemental Damage with Attack Skills <span class="glyphicon glyphicon-info-sign"></span> (Infusing)T4</li>
-                  <li data-ilvl="30" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=elemental">iLvl 30: <span class='mod-value'>(21&ndash;30)</span>% increased Elemental Damage with Attack Skills <span class="glyphicon glyphicon-info-sign"></span> (Empowering)T3</li>
-                  <li data-ilvl="60" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=elemental">iLvl 60: <span class='mod-value'>(31&ndash;37)</span>% increased Elemental Damage with Attack Skills <span class="glyphicon glyphicon-info-sign"></span> (Unleashed)T2</li>
-                  <li data-ilvl="81" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=elemental">iLvl 81: <span class='mod-value'>(38&ndash;42)</span>% increased Elemental Damage with Attack Skills <span class="glyphicon glyphicon-info-sign"></span> (Overpowering)T1</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="# to Level of Socketed Gems" class="modWrapper" data-modfor="3">
-              <div class="mod" onclick="toggle('mod3')">
-                <a href="#/" type="changecolor"><span class='mod-value'>#</span> to Level of Socketed Gems
-</a>
-              </div>
-              <div id="mod3" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="50" title="Fossil=gem_level">iLvl 50: <span class='mod-value'>+1</span> to Level of Socketed Gems <span class="glyphicon glyphicon-info-sign"></span> (Paragon's)T1</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="# to Level of Socketed Melee Gems" class="modWrapper" data-modfor="4">
-              <div class="mod" onclick="toggle('mod4')">
-                <a href="#/" type="changecolor"><span class='mod-value'>#</span> to Level of Socketed Melee Gems
-</a>
-              </div>
-              <div id="mod4" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="8" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=gem_level">iLvl 8: <span class='mod-value'>+1</span> to Level of Socketed Melee Gems <span class="glyphicon glyphicon-info-sign"></span> (Combatant's)T2</li>
-                  <li data-ilvl="63" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=gem_level">iLvl 63: <span class='mod-value'>+2</span> to Level of Socketed Melee Gems <span class="glyphicon glyphicon-info-sign"></span> (Weaponmaster's)T1</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="% increased Fishing Line Strength" class="modWrapper" data-modfor="5">
-              <div class="mod" onclick="toggle('mod5')">
-                <a href="#/" type="changecolor">% increased Fishing Line Strength
-</a>
-              </div>
-              <div id="mod5" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="1">iLvl 1: <span class='mod-value'>(20&ndash;40)</span>% increased Fishing Line Strength (Filigree)T1</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="% reduced Fishing Pool Consumption" class="modWrapper" data-modfor="6">
-              <div class="mod" onclick="toggle('mod6')">
-                <a href="#/" type="changecolor">% reduced Fishing Pool Consumption
-</a>
-              </div>
-              <div id="mod6" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="1">iLvl 1: <span class='mod-value'>(15&ndash;30)</span>% reduced Fishing Pool Consumption (Calming)T1</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="" class="modWrapper" data-modfor="7">
-              <div class="mod" onclick="toggle('mod7')">
-                <a href="#/" type="changecolor"></a>
-              </div>
-              <div id="mod7" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="1">iLvl 1: Rhoa Feather Lure (Alluring)T1</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="# % of Physical Attack Damage Leeched as Life" class="modWrapper" data-modfor="8">
-              <div class="mod" onclick="toggle('mod8')">
-                <a href="#/" type="changecolor"><span class='mod-value'>#</span>% of Physical Attack Damage Leeched as Life
-</a>
-              </div>
-              <div id="mod8" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="50" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=life&#10;Fossil=physical">iLvl 50: <span class='mod-value'>(0.2&ndash;0.4)</span>% of Physical Attack Damage Leeched as Life <span class="glyphicon glyphicon-info-sign"></span> (Remora's)T3</li>
-                  <li data-ilvl="60" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=life&#10;Fossil=physical">iLvl 60: <span class='mod-value'>(0.6&ndash;0.8)</span>% of Physical Attack Damage Leeched as Life <span class="glyphicon glyphicon-info-sign"></span> (Lamprey's)T2</li>
-                  <li data-ilvl="70" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=life&#10;Fossil=physical">iLvl 70: <span class='mod-value'>(1&ndash;1.2)</span>% of Physical Attack Damage Leeched as Life <span class="glyphicon glyphicon-info-sign"></span> (Vampire's)T1</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="# % of Physical Attack Damage Leeched as Mana" class="modWrapper" data-modfor="9">
-              <div class="mod" onclick="toggle('mod9')">
-                <a href="#/" type="changecolor"><span class='mod-value'>#</span>% of Physical Attack Damage Leeched as Mana
-</a>
-              </div>
-              <div id="mod9" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="50" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=physical&#10;Fossil=mana">iLvl 50: <span class='mod-value'>(0.2&ndash;0.4)</span>% of Physical Attack Damage Leeched as Mana <span class="glyphicon glyphicon-info-sign"></span> (Thirsty)T1</li>
-                </ol>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="modContainer" data-bucket="Delve Prefix">
-          <br />
-          <div class="seperator">
-            <strong>Delve Prefix</strong>
-          </div>
-          <div class="affix">
-            <div data-descr="# % chance for Poisons inflicted with this Weapon to deal #% more Damage" class="modWrapper" data-modfor="10">
-              <div class="mod" onclick="toggle('mod10')">
-                <a href="#/" type="changecolor"><span class='mod-value'>#</span>% chance for Poisons inflicted with this Weapon to deal #% more Damage
-</a>
-              </div>
-              <div id="mod10" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="1" title="Fossil=poison">iLvl 1: <span class='mod-value'>60</span>% chance for Poisons inflicted with this Weapon to deal 100% more Damage <span class="glyphicon glyphicon-info-sign"></span> (<strong><a class='item_currency' href='item.php?n=Corroded+Fossil'><img height='16' src="https://web.poecdn.com/image/Art/2DItems/Currency/Delve/CorrodedFossil.png?scale=1&w=1&h=1</strong>">Corroded Fossil</a>)</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="# % chance for Bleeding inflicted with this Weapon to deal #% more Damage" class="modWrapper" data-modfor="11">
-              <div class="mod" onclick="toggle('mod11')">
-                <a href="#/" type="changecolor"><span class='mod-value'>#</span>% chance for Bleeding inflicted with this Weapon to deal #% more Damage
-</a>
-              </div>
-              <div id="mod11" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="1" title="Fossil=bleed">iLvl 1: <span class='mod-value'>60</span>% chance for Bleeding inflicted with this Weapon to deal 100% more Damage <span class="glyphicon glyphicon-info-sign"></span> (<strong><a class='item_currency' href='item.php?n=Corroded+Fossil'><img height='16' src="https://web.poecdn.com/image/Art/2DItems/Currency/Delve/CorrodedFossil.png?scale=1&w=1&h=1</strong>">Corroded Fossil</a>)</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="Attacks with this Weapon Penetrate # % Elemental Resistances" class="modWrapper" data-modfor="12">
-              <div class="mod" onclick="toggle('mod12')">
-                <a href="#/" type="changecolor">Attacks with this Weapon Penetrate <span class='mod-value'>#</span>% Elemental Resistances
-</a>
-              </div>
-              <div id="mod12" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="1" title="Fossil=elemental">iLvl 1: Attacks with this Weapon Penetrate <span class='mod-value'>(16&ndash;20)</span>% Elemental Resistances <span class="glyphicon glyphicon-info-sign"></span> (<strong><a class='item_currency' href='item.php?n=Prismatic+Fossil'><img height='16' src="https://web.poecdn.com/image/Art/2DItems/Currency/Delve/PrismaticFossil.png?scale=1&w=1&h=1</strong>">Prismatic Fossil</a>)</li>
-                </ol>
-              </div>
-            </div>
-          </div>
-        </div>
-      </aside>
-      <aside id="right" class="right list">
-        <br />
-        <div class="modContainer" data-bucket="Suffix">
-          <br />
-          <div class="seperator">
-            <strong>Suffix</strong>
-          </div>
-          <div class="affix">
-            <div data-descr="# % increased Cast Speed" class="modWrapper" data-modfor="13">
-              <div class="mod" onclick="toggle('mod13')">
-                <a href="#/" type="changecolor"><span class='mod-value'>#</span>% increased Cast Speed
-</a>
-              </div>
-              <div id="mod13" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="10" title="Master Craft=caster&#10;Fossil=speed">iLvl 10: <span class='mod-value'>(24&ndash;28)</span>% increased Cast Speed <span class="glyphicon glyphicon-info-sign"></span> (of Casting)T1</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="# % increased Attack Speed" class="modWrapper" data-modfor="14">
-              <div class="mod" onclick="toggle('mod14')">
-                <a href="#/" type="changecolor"><span class='mod-value'>#</span>% increased Attack Speed
-</a>
-              </div>
-              <div id="mod14" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="1" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=speed">iLvl 1: <span class='mod-value'>(5&ndash;7)</span>% increased Attack Speed <span class="glyphicon glyphicon-info-sign"></span> (of Skill)T8</li>
-                  <li data-ilvl="11" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=speed">iLvl 11: <span class='mod-value'>(8&ndash;10)</span>% increased Attack Speed <span class="glyphicon glyphicon-info-sign"></span> (of Ease)T7</li>
-                  <li data-ilvl="22" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=speed">iLvl 22: <span class='mod-value'>(11&ndash;13)</span>% increased Attack Speed <span class="glyphicon glyphicon-info-sign"></span> (of Mastery)T6</li>
-                  <li data-ilvl="30" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=speed">iLvl 30: <span class='mod-value'>(14&ndash;16)</span>% increased Attack Speed <span class="glyphicon glyphicon-info-sign"></span> (of Renown)T5</li>
-                  <li data-ilvl="37" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=speed">iLvl 37: <span class='mod-value'>(17&ndash;19)</span>% increased Attack Speed <span class="glyphicon glyphicon-info-sign"></span> (of Acclaim)T4</li>
-                  <li data-ilvl="45" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=speed">iLvl 45: <span class='mod-value'>(20&ndash;22)</span>% increased Attack Speed <span class="glyphicon glyphicon-info-sign"></span> (of Fame)T3</li>
-                  <li data-ilvl="60" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=speed">iLvl 60: <span class='mod-value'>(23&ndash;25)</span>% increased Attack Speed <span class="glyphicon glyphicon-info-sign"></span> (of Infamy)T2</li>
-                  <li data-ilvl="77" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=speed">iLvl 77: <span class='mod-value'>(26&ndash;27)</span>% increased Attack Speed <span class="glyphicon glyphicon-info-sign"></span> (of Celebration)T1</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="+# % to Fire Resistance" class="modWrapper" data-modfor="15">
-              <div class="mod" onclick="toggle('mod15')">
-                <a href="#/" type="changecolor"><span class='mod-value'>+#</span>% to Fire Resistance
-</a>
-              </div>
-              <div id="mod15" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="1" title="Fossil=fire">iLvl 1: <span class='mod-value'>6&ndash;11</span>% to Fire Resistance <span class="glyphicon glyphicon-info-sign"></span> (of the Whelpling)T8</li>
-                  <li data-ilvl="12" title="Fossil=fire">iLvl 12: <span class='mod-value'>12&ndash;17</span>% to Fire Resistance <span class="glyphicon glyphicon-info-sign"></span> (of the Salamander)T7</li>
-                  <li data-ilvl="24" title="Fossil=fire">iLvl 24: <span class='mod-value'>18&ndash;23</span>% to Fire Resistance <span class="glyphicon glyphicon-info-sign"></span> (of the Drake)T6</li>
-                  <li data-ilvl="36" title="Fossil=fire">iLvl 36: <span class='mod-value'>24&ndash;29</span>% to Fire Resistance <span class="glyphicon glyphicon-info-sign"></span> (of the Kiln)T5</li>
-                  <li data-ilvl="48" title="Fossil=fire">iLvl 48: <span class='mod-value'>30&ndash;35</span>% to Fire Resistance <span class="glyphicon glyphicon-info-sign"></span> (of the Furnace)T4</li>
-                  <li data-ilvl="60" title="Fossil=fire">iLvl 60: <span class='mod-value'>36&ndash;41</span>% to Fire Resistance <span class="glyphicon glyphicon-info-sign"></span> (of the Volcano)T3</li>
-                  <li data-ilvl="72" title="Fossil=fire">iLvl 72: <span class='mod-value'>42&ndash;45</span>% to Fire Resistance <span class="glyphicon glyphicon-info-sign"></span> (of the Magma)T2</li>
-                  <li data-ilvl="84" title="Fossil=fire">iLvl 84: <span class='mod-value'>46&ndash;48</span>% to Fire Resistance <span class="glyphicon glyphicon-info-sign"></span> (of Tzteosh)T1</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="+# % to Cold Resistance" class="modWrapper" data-modfor="16">
-              <div class="mod" onclick="toggle('mod16')">
-                <a href="#/" type="changecolor"><span class='mod-value'>+#</span>% to Cold Resistance
-</a>
-              </div>
-              <div id="mod16" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="1" title="Fossil=cold">iLvl 1: <span class='mod-value'>6&ndash;11</span>% to Cold Resistance <span class="glyphicon glyphicon-info-sign"></span> (of the Inuit)T8</li>
-                  <li data-ilvl="14" title="Fossil=cold">iLvl 14: <span class='mod-value'>12&ndash;17</span>% to Cold Resistance <span class="glyphicon glyphicon-info-sign"></span> (of the Seal)T7</li>
-                  <li data-ilvl="26" title="Fossil=cold">iLvl 26: <span class='mod-value'>18&ndash;23</span>% to Cold Resistance <span class="glyphicon glyphicon-info-sign"></span> (of the Penguin)T6</li>
-                  <li data-ilvl="38" title="Fossil=cold">iLvl 38: <span class='mod-value'>24&ndash;29</span>% to Cold Resistance <span class="glyphicon glyphicon-info-sign"></span> (of the Yeti)T5</li>
-                  <li data-ilvl="50" title="Fossil=cold">iLvl 50: <span class='mod-value'>30&ndash;35</span>% to Cold Resistance <span class="glyphicon glyphicon-info-sign"></span> (of the Walrus)T4</li>
-                  <li data-ilvl="60" title="Fossil=cold">iLvl 60: <span class='mod-value'>36&ndash;41</span>% to Cold Resistance <span class="glyphicon glyphicon-info-sign"></span> (of the Polar Bear)T3</li>
-                  <li data-ilvl="72" title="Fossil=cold">iLvl 72: <span class='mod-value'>42&ndash;45</span>% to Cold Resistance <span class="glyphicon glyphicon-info-sign"></span> (of the Ice)T2</li>
-                  <li data-ilvl="84" title="Fossil=cold">iLvl 84: <span class='mod-value'>46&ndash;48</span>% to Cold Resistance <span class="glyphicon glyphicon-info-sign"></span> (of Haast)T1</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="+# % to Lightning Resistance" class="modWrapper" data-modfor="17">
-              <div class="mod" onclick="toggle('mod17')">
-                <a href="#/" type="changecolor"><span class='mod-value'>+#</span>% to Lightning Resistance
-</a>
-              </div>
-              <div id="mod17" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="1" title="Fossil=lightning">iLvl 1: <span class='mod-value'>6&ndash;11</span>% to Lightning Resistance <span class="glyphicon glyphicon-info-sign"></span> (of the Cloud)T8</li>
-                  <li data-ilvl="13" title="Fossil=lightning">iLvl 13: <span class='mod-value'>12&ndash;17</span>% to Lightning Resistance <span class="glyphicon glyphicon-info-sign"></span> (of the Squall)T7</li>
-                  <li data-ilvl="25" title="Fossil=lightning">iLvl 25: <span class='mod-value'>18&ndash;23</span>% to Lightning Resistance <span class="glyphicon glyphicon-info-sign"></span> (of the Storm)T6</li>
-                  <li data-ilvl="37" title="Fossil=lightning">iLvl 37: <span class='mod-value'>24&ndash;29</span>% to Lightning Resistance <span class="glyphicon glyphicon-info-sign"></span> (of the Thunderhead)T5</li>
-                  <li data-ilvl="49" title="Fossil=lightning">iLvl 49: <span class='mod-value'>30&ndash;35</span>% to Lightning Resistance <span class="glyphicon glyphicon-info-sign"></span> (of the Tempest)T4</li>
-                  <li data-ilvl="60" title="Fossil=lightning">iLvl 60: <span class='mod-value'>36&ndash;41</span>% to Lightning Resistance <span class="glyphicon glyphicon-info-sign"></span> (of the Maelstrom)T3</li>
-                  <li data-ilvl="72" title="Fossil=lightning">iLvl 72: <span class='mod-value'>42&ndash;45</span>% to Lightning Resistance <span class="glyphicon glyphicon-info-sign"></span> (of the Lightning)T2</li>
-                  <li data-ilvl="84" title="Fossil=lightning">iLvl 84: <span class='mod-value'>46&ndash;48</span>% to Lightning Resistance <span class="glyphicon glyphicon-info-sign"></span> (of Ephij)T1</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="+# % to Chaos Resistance" class="modWrapper" data-modfor="18">
-              <div class="mod" onclick="toggle('mod18')">
-                <a href="#/" type="changecolor"><span class='mod-value'>+#</span>% to Chaos Resistance
-</a>
-              </div>
-              <div id="mod18" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="16" title="Fossil=chaos">iLvl 16: <span class='mod-value'>5&ndash;10</span>% to Chaos Resistance <span class="glyphicon glyphicon-info-sign"></span> (of the Lost)T6</li>
-                  <li data-ilvl="30" title="Fossil=chaos">iLvl 30: <span class='mod-value'>11&ndash;15</span>% to Chaos Resistance <span class="glyphicon glyphicon-info-sign"></span> (of Banishment)T5</li>
-                  <li data-ilvl="44" title="Fossil=chaos">iLvl 44: <span class='mod-value'>16&ndash;20</span>% to Chaos Resistance <span class="glyphicon glyphicon-info-sign"></span> (of Eviction)T4</li>
-                  <li data-ilvl="56" title="Fossil=chaos">iLvl 56: <span class='mod-value'>21&ndash;25</span>% to Chaos Resistance <span class="glyphicon glyphicon-info-sign"></span> (of Expulsion)T3</li>
-                  <li data-ilvl="65" title="Fossil=chaos">iLvl 65: <span class='mod-value'>26&ndash;30</span>% to Chaos Resistance <span class="glyphicon glyphicon-info-sign"></span> (of Exile)T2</li>
-                  <li data-ilvl="81" title="Fossil=chaos">iLvl 81: <span class='mod-value'>31&ndash;35</span>% to Chaos Resistance <span class="glyphicon glyphicon-info-sign"></span> (of Bameth)T1</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="% increased Stun Duration on Enemies" class="modWrapper" data-modfor="19">
-              <div class="mod" onclick="toggle('mod19')">
-                <a href="#/" type="changecolor">% increased Stun Duration on Enemies
-</a>
-              </div>
-              <div id="mod19" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="5">iLvl 5: <span class='mod-value'>(11&ndash;15)</span>% increased Stun Duration on Enemies (of Impact)T5</li>
-                  <li data-ilvl="18">iLvl 18: <span class='mod-value'>(16&ndash;20)</span>% increased Stun Duration on Enemies (of Dazing)T4</li>
-                  <li data-ilvl="30">iLvl 30: <span class='mod-value'>(21&ndash;25)</span>% increased Stun Duration on Enemies (of Stunning)T3</li>
-                  <li data-ilvl="44">iLvl 44: <span class='mod-value'>(26&ndash;30)</span>% increased Stun Duration on Enemies (of Slamming)T2</li>
-                  <li data-ilvl="58">iLvl 58: <span class='mod-value'>(31&ndash;35)</span>% increased Stun Duration on Enemies (of Staggering)T1</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="# Life gained for each Enemy hit by Attacks" class="modWrapper" data-modfor="20">
-              <div class="mod" onclick="toggle('mod20')">
-                <a href="#/" type="changecolor"><span class='mod-value'>#</span> Life gained for each Enemy hit by Attacks
-</a>
-              </div>
-              <div id="mod20" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="8" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=life">iLvl 8: <span class='mod-value'>+2</span> Life gained for each Enemy hit by Attacks <span class="glyphicon glyphicon-info-sign"></span> (of Rejuvenation)T4</li>
-                  <li data-ilvl="20" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=life">iLvl 20: <span class='mod-value'>+3</span> Life gained for each Enemy hit by Attacks <span class="glyphicon glyphicon-info-sign"></span> (of Restoration)T3</li>
-                  <li data-ilvl="30" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=life">iLvl 30: <span class='mod-value'>+4</span> Life gained for each Enemy hit by Attacks <span class="glyphicon glyphicon-info-sign"></span> (of Regrowth)T2</li>
-                  <li data-ilvl="40" title="Master Craft=attack&#10;Fossil=attack&#10;Fossil=life">iLvl 40: <span class='mod-value'>+5</span> Life gained for each Enemy hit by Attacks <span class="glyphicon glyphicon-info-sign"></span> (of Nourishment)T1</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="+# Life gained on Kill" class="modWrapper" data-modfor="21">
-              <div class="mod" onclick="toggle('mod21')">
-                <a href="#/" type="changecolor"><span class='mod-value'>+#</span> Life gained on Kill
-</a>
-              </div>
-              <div id="mod21" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="1" title="Fossil=life">iLvl 1: <span class='mod-value'>3&ndash;6</span> Life gained on Kill <span class="glyphicon glyphicon-info-sign"></span> (of Success)T3</li>
-                  <li data-ilvl="23" title="Fossil=life">iLvl 23: <span class='mod-value'>7&ndash;10</span> Life gained on Kill <span class="glyphicon glyphicon-info-sign"></span> (of Victory)T2</li>
-                  <li data-ilvl="40" title="Fossil=life">iLvl 40: <span class='mod-value'>11&ndash;14</span> Life gained on Kill <span class="glyphicon glyphicon-info-sign"></span> (of Triumph)T1</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="# Mana gained on Kill" class="modWrapper" data-modfor="22">
-              <div class="mod" onclick="toggle('mod22')">
-                <a href="#/" type="changecolor"><span class='mod-value'>#</span> Mana gained on Kill
-</a>
-              </div>
-              <div id="mod22" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="1" title="Fossil=mana">iLvl 1: <span class='mod-value'>+1</span> Mana gained on Kill <span class="glyphicon glyphicon-info-sign"></span> (of Absorption)T3</li>
-                  <li data-ilvl="24" title="Fossil=mana">iLvl 24: <span class='mod-value'>2&ndash;3</span> Mana gained on Kill <span class="glyphicon glyphicon-info-sign"></span> (of Osmosis)T2</li>
-                  <li data-ilvl="40" title="Fossil=mana">iLvl 40: <span class='mod-value'>4&ndash;6</span> Mana gained on Kill <span class="glyphicon glyphicon-info-sign"></span> (of Consumption)T1</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="# % increased Critical Strike Chance" class="modWrapper" data-modfor="23">
-              <div class="mod" onclick="toggle('mod23')">
-                <a href="#/" type="changecolor"><span class='mod-value'>#</span>% increased Critical Strike Chance
-</a>
-              </div>
-              <div id="mod23" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="1" title="Master Craft=attack&#10;Fossil=attack">iLvl 1: <span class='mod-value'>(10&ndash;14)</span>% increased Critical Strike Chance <span class="glyphicon glyphicon-info-sign"></span> (of Needling)T6</li>
-                  <li data-ilvl="20" title="Master Craft=attack&#10;Fossil=attack">iLvl 20: <span class='mod-value'>(15&ndash;19)</span>% increased Critical Strike Chance <span class="glyphicon glyphicon-info-sign"></span> (of Stinging)T5</li>
-                  <li data-ilvl="30" title="Master Craft=attack&#10;Fossil=attack">iLvl 30: <span class='mod-value'>(20&ndash;24)</span>% increased Critical Strike Chance <span class="glyphicon glyphicon-info-sign"></span> (of Piercing)T4</li>
-                  <li data-ilvl="44" title="Master Craft=attack&#10;Fossil=attack">iLvl 44: <span class='mod-value'>(25&ndash;29)</span>% increased Critical Strike Chance <span class="glyphicon glyphicon-info-sign"></span> (of Puncturing)T3</li>
-                  <li data-ilvl="59" title="Master Craft=attack&#10;Fossil=attack">iLvl 59: <span class='mod-value'>(30&ndash;34)</span>% increased Critical Strike Chance <span class="glyphicon glyphicon-info-sign"></span> (of Penetrating)T2</li>
-                  <li data-ilvl="73" title="Master Craft=attack&#10;Fossil=attack">iLvl 73: <span class='mod-value'>(35&ndash;38)</span>% increased Critical Strike Chance <span class="glyphicon glyphicon-info-sign"></span> (of Incision)T1</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="% to Global Critical Strike Multiplier" class="modWrapper" data-modfor="24">
-              <div class="mod" onclick="toggle('mod24')">
-                <a href="#/" type="changecolor">% to Global Critical Strike Multiplier
-</a>
-              </div>
-              <div id="mod24" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="8">iLvl 8: <span class='mod-value'>10&ndash;14</span>% to Global Critical Strike Multiplier (of Ire)T6</li>
-                  <li data-ilvl="21">iLvl 21: <span class='mod-value'>15&ndash;19</span>% to Global Critical Strike Multiplier (of Anger)T5</li>
-                  <li data-ilvl="30">iLvl 30: <span class='mod-value'>20&ndash;24</span>% to Global Critical Strike Multiplier (of Rage)T4</li>
-                  <li data-ilvl="44">iLvl 44: <span class='mod-value'>25&ndash;29</span>% to Global Critical Strike Multiplier (of Fury)T3</li>
-                  <li data-ilvl="59">iLvl 59: <span class='mod-value'>30&ndash;34</span>% to Global Critical Strike Multiplier (of Ferocity)T2</li>
-                  <li data-ilvl="73">iLvl 73: <span class='mod-value'>35&ndash;38</span>% to Global Critical Strike Multiplier (of Destruction)T1</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="+# to Accuracy Rating" class="modWrapper" data-modfor="25">
-              <div class="mod" onclick="toggle('mod25')">
-                <a href="#/" type="changecolor"><span class='mod-value'>+#</span> to Accuracy Rating
-</a>
-              </div>
-              <div id="mod25" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="1" title="Master Craft=attack&#10;Fossil=attack">iLvl 1: <span class='mod-value'>5&ndash;15</span> to Accuracy Rating <span class="glyphicon glyphicon-info-sign"></span> (of Calm)T9</li>
-                  <li data-ilvl="12" title="Master Craft=attack&#10;Fossil=attack">iLvl 12: <span class='mod-value'>16&ndash;60</span> to Accuracy Rating <span class="glyphicon glyphicon-info-sign"></span> (of Steadiness)T8</li>
-                  <li data-ilvl="20" title="Master Craft=attack&#10;Fossil=attack">iLvl 20: <span class='mod-value'>61&ndash;100</span> to Accuracy Rating <span class="glyphicon glyphicon-info-sign"></span> (of Accuracy)T7</li>
-                  <li data-ilvl="26" title="Master Craft=attack&#10;Fossil=attack">iLvl 26: <span class='mod-value'>101&ndash;130</span> to Accuracy Rating <span class="glyphicon glyphicon-info-sign"></span> (of Precision)T6</li>
-                  <li data-ilvl="33" title="Master Craft=attack&#10;Fossil=attack">iLvl 33: <span class='mod-value'>131&ndash;165</span> to Accuracy Rating <span class="glyphicon glyphicon-info-sign"></span> (of the Sniper)T5</li>
-                  <li data-ilvl="41" title="Master Craft=attack&#10;Fossil=attack">iLvl 41: <span class='mod-value'>166&ndash;200</span> to Accuracy Rating <span class="glyphicon glyphicon-info-sign"></span> (of the Marksman)T4</li>
-                  <li data-ilvl="50" title="Master Craft=attack&#10;Fossil=attack">iLvl 50: <span class='mod-value'>201&ndash;250</span> to Accuracy Rating <span class="glyphicon glyphicon-info-sign"></span> (of the Deadeye)T3</li>
-                  <li data-ilvl="63" title="Master Craft=attack&#10;Fossil=attack">iLvl 63: <span class='mod-value'>251&ndash;320</span> to Accuracy Rating <span class="glyphicon glyphicon-info-sign"></span> (of the Ranger)T2</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="% reduced Attribute Requirements" class="modWrapper" data-modfor="26">
-              <div class="mod" onclick="toggle('mod26')">
-                <a href="#/" type="changecolor">% reduced Attribute Requirements
-</a>
-              </div>
-              <div id="mod26" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="36">iLvl 36: <span class='mod-value'>18</span>% reduced Attribute Requirements (of the Worthy)T2</li>
-                  <li data-ilvl="60">iLvl 60: <span class='mod-value'>32</span>% reduced Attribute Requirements (of the Apt)T1</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="# % increased Light Radius +# to Accuracy Rating" class="modWrapper" data-modfor="27">
-              <div class="mod" onclick="toggle('mod27')">
-                <a href="#/" type="changecolor"><span class='mod-value'>#</span>% increased Light Radius<br><span class='mod-value'>+#</span> to Accuracy Rating
-</a>
-              </div>
-              <div id="mod27" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="8" title="Master Craft=attack&#10;Fossil=attack">iLvl 8: <span class='mod-value'>5</span>% increased Light Radius<br><span class='mod-value'>10&ndash;20</span> to Accuracy Rating <span class="glyphicon glyphicon-info-sign"></span> (of Shining)T3</li>
-                  <li data-ilvl="15" title="Master Craft=attack&#10;Fossil=attack">iLvl 15: <span class='mod-value'>10</span>% increased Light Radius<br><span class='mod-value'>21&ndash;40</span> to Accuracy Rating <span class="glyphicon glyphicon-info-sign"></span> (of Light)T2</li>
-                  <li data-ilvl="30" title="Master Craft=attack&#10;Fossil=attack">iLvl 30: <span class='mod-value'>15</span>% increased Light Radius<br><span class='mod-value'>(5&ndash;10)</span>% increased Global Accuracy Rating <span class="glyphicon glyphicon-info-sign"></span> (of Radiance)T1</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="" class="modWrapper" data-modfor="28">
-              <div class="mod" onclick="toggle('mod28')">
-                <a href="#/" type="changecolor"></a>
-              </div>
-              <div id="mod28" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="1">iLvl 1: Karui Stone Hook (of Snaring)T1</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="% increased Fishing Range" class="modWrapper" data-modfor="29">
-              <div class="mod" onclick="toggle('mod29')">
-                <a href="#/" type="changecolor">% increased Fishing Range
-</a>
-              </div>
-              <div id="mod29" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="1">iLvl 1: <span class='mod-value'>(30&ndash;50)</span>% increased Fishing Range (of Flight)T1</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="% increased Quantity of Fish Caught" class="modWrapper" data-modfor="30">
-              <div class="mod" onclick="toggle('mod30')">
-                <a href="#/" type="changecolor">% increased Quantity of Fish Caught
-</a>
-              </div>
-              <div id="mod30" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="1">iLvl 1: <span class='mod-value'>(15&ndash;20)</span>% increased Quantity of Fish Caught (of Fascination)T1</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="% increased Rarity of Fish Caught" class="modWrapper" data-modfor="31">
-              <div class="mod" onclick="toggle('mod31')">
-                <a href="#/" type="changecolor">% increased Rarity of Fish Caught
-</a>
-              </div>
-              <div id="mod31" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="1">iLvl 1: <span class='mod-value'>(25&ndash;40)</span>% increased Rarity of Fish Caught (of Bounty)T1</li>
-                </ol>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="modContainer" data-bucket="Delve Suffix">
-          <br />
-          <div class="seperator">
-            <strong>Delve Suffix</strong>
-          </div>
-          <div class="affix">
-            <div data-descr="# % chance to Intimidate Enemies for # seconds on Hit" class="modWrapper" data-modfor="32">
-              <div class="mod" onclick="toggle('mod32')">
-                <a href="#/" type="changecolor"><span class='mod-value'>#</span>% chance to Intimidate Enemies for # seconds on Hit
-</a>
-              </div>
-              <div id="mod32" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="1" title="Fossil=physical&#10;Fossil=attack">iLvl 1: <span class='mod-value'>15</span>% chance to Intimidate Enemies for 4 seconds on Hit <span class="glyphicon glyphicon-info-sign"></span> (<strong><a class='item_currency' href='item.php?n=Jagged+Fossil'><img height='16' src="https://web.poecdn.com/image/Art/2DItems/Currency/Delve/JaggedFossil.png?scale=1&w=1&h=1</strong>">Jagged Fossil</a>)</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="# % increased Damage when on Full Life" class="modWrapper" data-modfor="33">
-              <div class="mod" onclick="toggle('mod33')">
-                <a href="#/" type="changecolor"><span class='mod-value'>#</span>% increased Damage when on Full Life
-</a>
-              </div>
-              <div id="mod33" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="1" title="Fossil=life">iLvl 1: <span class='mod-value'>(50&ndash;60)</span>% increased Damage when on Full Life <span class="glyphicon glyphicon-info-sign"></span> (<strong><a class='item_currency' href='item.php?n=Pristine+Fossil'><img height='16' src="https://web.poecdn.com/image/Art/2DItems/Currency/Delve/PristineFossil.png?scale=1&w=1&h=1</strong>">Pristine Fossil</a>)</li>
-                  <li data-ilvl="1" title="Fossil=life">iLvl 1: <span class='mod-value'>(100&ndash;120)</span>% increased Damage when on Full Life <span class="glyphicon glyphicon-info-sign"></span> (of the Underground)</li>
-                </ol>
-              </div>
-            </div>
-            <div data-descr="" class="modWrapper" data-modfor="34">
-              <div class="mod" onclick="toggle('mod34')">
-                <a href="#/" type="changecolor"></a>
-              </div>
-              <div id="mod34" class="VAL">
-                <br />
-                <ol>
-                  <li data-ilvl="1">iLvl 1: Has 1 Abyssal Socket (<strong><a class='item_currency' href='item.php?n=Hollow+Fossil'><img height='16' src="https://web.poecdn.com/image/Art/2DItems/Currency/Delve/AmberEye.png?scale=1&w=1&h=1</strong>">Hollow Fossil</a>)</li>
-                </ol>
-              </div>
-            </div>
-          </div>
-        </div>
-      </aside>
-      <div id="trailing"></div>
-      <br />
-      <div id="ADBAR">
-        <div id="TopSideBarAd">
-          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- 300x250 Text Only -->          <ins class="adsbygoogle" style="display: inline-block; width: 300px; height: 250px;" data-ad-client="ca-pub-7924380187053536" data-ad-slot="9811139608" />
-          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-        </div>
-        <div id="lowermiddlesidebarad">
-          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- 300x250 Display -->          <ins class="adsbygoogle" style="display: inline-block; width: 300px; height: 250px;" data-ad-client="ca-pub-7924380187053536" data-ad-slot="3764606006" />
-          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-        </div>
+    
+<nav id="mainav">
+  <ul>
+    <li>One Hand
+      <ul>
+        <a href="1h-axe.html"><li>Axe</li></a>
+        <a href="1h-claw.html"><li>Claw</li></a>
+        <a href="1h-dagger.html"><li>Dagger</li></a>
+        <a href="1h-mace.html"><li>Mace</li></a>
+        <a href="1h-sceptre.html"><li>Sceptre</li></a>
+        <a href="1h-sword.html"><li>Sword</li></a>
+        <a href="1h-wand.html"><li>Wand</li></a>
+        </ul>
+      </li>
+    <li>Two Hand
+      <ul>
+        <a href="2h-axe.html"><li>Axe</li></a>
+        <a href="2h-bow.html"><li>Bow</li></a>
+        <a href="2h-mace.html"><li>Mace</li></a>
+        <a href="2h-staff.html"><li>Staff</li></a>
+        <a href="2h-sword.html"><li>Sword</li></a>
+        <a href="2h-fish.html"><li>Fishing Rod</li></a>
+        </ul>
+      </li>
+    <li>Body Armour
+      <ul>
+        <a href="ch-ar.html"><li>Armour</li></a>
+        <a href="ch-ev.html"><li>Evasion</li></a>
+        <a href="ch-es.html"><li>Energy Shield</li></a>
+        <a href="ch-ares.html"><li>Armour and<br>Energy Shield</li></a>
+        <a href="ch-arev.html"><li>Armour and<br>Evasion</li></a>
+        <a href="ch-eves.html"><li>Evasion and<br>Energy Shield</li></a>
+        <a href="ch-garb.html"><li>Sacrificial Garb</li></a>
+        </ul>
+      </li>
+    <li>Helmet
+      <ul>
+        <a href="hm-ar.html"><li>Armour</li></a>
+        <a href="hm-ev.html"><li>Evasion</li></a>
+        <a href="hm-es.html"><li>Energy Shield</li></a>
+        <a href="hm-ares.html"><li>Armour and<br>Energy Shield</li></a>
+        <a href="hm-arev.html"><li>Armour and<br>Evasion</li></a>
+        <a href="hm-eves.html"><li>Evasion and<br>Energy Shield</li></a>
+        <a href="hm-enchant.html"><li>Enchantment</li></a>
+        </ul>
+      </li>
+    <li>Gloves
+      <ul>
+        <a href="gl-ar.html"><li>Armour</li></a>
+        <a href="gl-ev.html"><li>Evasion</li></a>
+        <a href="gl-es.html"><li>Energy Shield</li></a>
+        <a href="gl-ares.html"><li>Armour and<br>Energy Shield</li></a>
+        <a href="gl-arev.html"><li>Armour and<br>Evasion</li></a>
+        <a href="gl-eves.html"><li>Evasion and<br>Energy Shield</li></a>
+        <a href="gl-enchant.html"><li>Enchantment</li></a>
+        </ul>
+      </li>
+    <li>Boots
+      <ul>
+        <a href="bt-ar.html"><li>Armour</li></a>
+        <a href="bt-ev.html"><li>Evasion</li></a>
+        <a href="bt-es.html"><li>Energy Shield</li></a>
+        <a href="bt-ares.html"><li>Armour and<br>Energy Shield</li></a>
+        <a href="bt-arev.html"><li>Armour and<br>Evasion</li></a>
+        <a href="bt-eves.html"><li>Evasion and<br>Energy Shield</li></a>
+        <a href="gl-enchant.html"><li>Enchantment</li></a>
+        </ul>
+      </li>
+    <li>Shield
+      <ul>
+        <a href="sh-ar.html"><li>Armour</li></a>
+        <a href="sh-ev.html"><li>Evasion</li></a>
+        <a href="sh-es.html"><li>Energy Shield</li></a>
+        <a href="sh-ares.html"><li>Armour and<br>Energy Shield</li></a>
+        <a href="sh-arev.html"><li>Armour and<br>Evasion</li></a>
+        <a href="sh-eves.html"><li>Evasion and<br>Energy Shield</li></a>
+        </ul>
+      </li>
+    <li>Accessories
+      <ul>
+        <a href="ac-amulet.html"><li>Amulet</li></a>
+        <a href="ac-belt.html"><li>Belt</li></a>
+        <a href="ac-ring.html"><li>Ring</li></a>
+        <a href="ac-quiver.html"><li>Quiver</li></a>
+        <a href="ac-flask.html"><li>Flask</li></a>
+        <a href="jw-cobalt.html"><li>Cobalt Jewel</li></a>
+        <a href="jw-crimson.html"><li>Crimson Jewel</li></a>
+        <a href="jw-viridian.html"><li>Viridian Jewel</li></a>
+        <a href="jw-murderous.html"><li>Murderous Eye Jewel</li></a>
+        <a href="jw-searching.html"><li>Searching Eye Jewel</li></a>
+        <a href="jw-hypnotic.html"><li>Hypnotic Eye Jewel</li></a>
+        <a href="jw-ghastly.html"><li>Ghastly Eye Jewel</li></a>        
+        <a href="jw-all.html"><li>Jewel (All Mods)</li></a>                
+        </ul>
+      </li>
+    <li>Other
+      <ul>
+        <a href="ot-map.html"><li>Map</li></a>
+        <a href="ot-box.html"><li>Strongbox</li></a>
+        </ul> 
+      </li>
+    </ul>
+</nav>
+    
+    </header>
+    <div id="paypal"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=S6L2QZULXFK7E"><img src="images/paypal.png" /></a></div>
+    
+    
+<!-- InstanceBeginEditable name="article" -->
+  <div id="pageinfo">
+  <article id="main">
+    <h2>Prefix</h2>
+</article>
+  
+<article id="main2">
+    <h2>Fishing Rod</h2>
+</article>
+  
+<article id="main3">
+    <h2>Suffix</h2>
+</article>
+ </div>
+  <!-- InstanceEndEditable -->   
+<!-- InstanceBeginEditable name="Body" -->  
+  <aside id="corruption">
+   <div id="item"><a href="#openModal1000">Corruption
+    </a>
+    <div id="openModal1000" class="modalDialog">
+      <div> <a href="#close" title="Close" class="close"></a>
+        <div id="fishcorr"> Content </div>
       </div>
     </div>
-    <footer class="footer">
-      <div id="footermsg">&copy; 2015-2017. This site is not affiliated with, endorsed, or sponsored by Grinding Gear Games. (last updated Thursday, January 31, 2019)</div>
-<!-- Updated Thursday, January 31, 2019 -->    </footer>
-    <script src="js/closemodal.js"></script>
-    <script src="js/mod.js"></script>
-  </body>
-</html>
+   </div>
+  </aside>
+
+  
+<aside class="left list" id="left">
+  
+ <br><div class="seperator" align="center"><strong>Base Item Mods</strong></div>
+   <div class="affix">
+   
+    <div class="mod" onclick="toggle('mod3')">
+      <a href="#/" type="changecolor">____ Bait/Lure<br></a></div>
+     <div id="mod3" class="VAL"> 
+      <ol>
+        <br><li>iLvl 1: Rhoa Feather (Alluring)</li>
+        <li>iLvl 1: Siren Worm (Alluring)</li>
+        <li>iLvl 1: Totemic Wood Lure (Alluring)</li><br>               
+      </ol>     
+    </div>
+   
+    <div class="mod" onclick="toggle('mod1')">
+      <a href="#/" type="changecolor">#% increased Fishing Line Strength<br></a></div>
+     <div id="mod1" class="VAL"> 
+      <ol>
+        <br><li>iLvl 1: 20-40 (Filigree)</li><br>               
+      </ol>     
+    </div>
+    
+    <div class="mod" onclick="toggle('mod2')">
+      <a href="#/" type="changecolor">#% reduced Fishing Pool Consumption<br></a></div>
+     <div id="mod2" class="VAL"> 
+      <ol>
+        <br><li>iLvl 1: 15-30 (Calming)</li><br>               
+      </ol>     
+    </div>
+    
+
+    </div> 
+    
+    <pre style="color:white">                                                                                                   
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmhhhddNMMMMMMMMMMM
+MMMMMMMMMMMMNy.```-smNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNhhyydNNNMNyoMMMMMMMMMM
+MMMMMMMMMMMN:       `.sMMMMMMMMMMMMMMMMMMMMMMMMMNdhyhmNMMMMMMMMMoNMMMMMMMMM
+MMMMMMMMMMMh          oMMMMMMMMMMMMMMMMMMMMMMmdddNNMMMMMMMMMMMMM+MMMMMMMMMM
+MMMMMMMMMMMs          mMMMMMMMMMMMMMMMMMMMmddNNMMMMMMMMMMMMMMMMshMMMMMMMMMM
+MMMMMMMMMMN/         -MMMMMMMMMMMMMMMMMmhymNMMMMMMMMMMMMMMMMMNshMMMMMMMMMMM
+MMMMMMmo/-.         :mMMMMMMMMMMMMMMMdsymMMMMMMMMMMMMMMMMMMMmsmMMMMMMMMMMMM
+MMMMMd.           -/dMMMMMMMMMMMMMMhoyNMMMMMMMMMMMMMMMMMMMNhyNMMMMMMMMMMMMM
+MMMMM:           .yNMMMMMMMMMMmdMdshNMMMMMMMMMMMMMMMMMMMMdsdMMMMMMMMMMMMMMM
+MMMMN.            `.oNMMMMMMys:--yNMMMMMMMMMMMMMMMMMMMMMdyNMMMMMMMMMMMMMMMM
+MMMMM:               -mMMMMm/.  oNMMMMMMMMMMMMMMMMMNdo:--hMMMMMMMMMMMMMMMMM
+MMMMMo                .hMNy/.  .MMMMMMMMMMMMMMMMMNy-`    .NMMMMMMMMMMMMMMMM
+MMMMMN-                `+.    .hMMMMMMMMMMMMMMMMh:`       mMMMMMMMMMMMMMMMM
+MMMMMMm-                    -omMMMMMMMMMMMMMMMNs`         mMMMMMMMMMMMMMMMM
+MMMMMMMMs                  <a href="https://www.youtube.com/watch?v=wPGIRhEDaDY" style="color:white; display:inline">FISHON</a>MMMMMMMMMMMMNy-`         `mMMMMMMMMMMMMMMM
+MMMMMMMy               +++yMMMMMMMMMMMMMMMMd:             +MMMMMMMMMMMMMMMM
+MMMMMMMo              -NMMMMMMMMMMMMMMMMMMm.              `mMMMMMMhNMMMMMMM
+MMMMMMMNs.            oMMMMMMMMMMMMMMMMMMMy            -.  hMMMMMN./MMMMMMM
+MMMMMMMMM+            `/sNMMMMMMMMMMMMMMMMNo+.         dmssNMMMMMo `hMMMMMM
+MMMMMMMMMh`              /NMMMMMMMMMMMMMMMMMMy         oMMMMMMMN+`  +MMMMMM
+MMMMMMMMMMy`              +MMMMMMMMMMMMMMMMMMN:        `/ydmdh+.    /MMMMMM
+MMMMMMMMMMM+               :sNMMMMMMMMMMMMMMMMm:          ```       .hMMMMM
+MMMMMMMMMMMy                 :NMMMMMMMMMMMMMMMMNo.             .-.`  `hMMMM
+MMMMMMMMMMMN-      `          oNMMMMMMMMMMMMMMMMMms/.``````.-/ymMNh/` .NMMM
+MMMMMMMMMMMy      +h/`         .+NMMMMMMMMMMMMMMMMMMNddhhhdmNMMMMMMMd/`dMMM
+MMMMMMMMMMy.     +MMMh.         `hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMhmMMM
+MMMMMMMMMMs     .mMMMMy         hNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMM/    `dMMMMMNo       /MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMN.   `yMMMMMMMy     `oNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMm`  `hMMMMMMMMs    -dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMm`  sMMMMMMMMMs   -mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMm`  hNNNNMMMMMo   dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMM+   `...-hMMMm.   mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMo--:+shdmNMMd-    sMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMd`     `+ydNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMy.`        .+mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMdyyhhyyyhdmNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM</pre> 
+</aside>
+
+  
+  
+   
+<aside class="right list" id="right">
+     
+  <br><div class="seperator" align="center"><strong>Base Item Mods</strong></div>
+   <div class="affix">
+   
+    <div class="mod" onclick="toggle('mod8')">
+      <a href="#/" type="changecolor">____ Hook<br></a></div>
+     <div id="mod8" class="VAL"> 
+      <ol>
+        <br><li>iLvl 1: Karui Stone (of Snaring)</li>
+        <li>iLvl 1: Ezomite Shell (of Snaring)</li>
+        <li>iLvl 1: Vaal Soul (of Snaring)</li>
+        <li>iLvl 1: Eternal Iron (of Snaring)</li><br>               
+      </ol>     
+    </div>
+    
+    <div class="mod" onclick="toggle('mod4')">
+      <a href="#/" type="changecolor">#% increased Cast Speed<br></a></div>
+     <div id="mod4" class="VAL"> 
+      <ol>
+        <br>iLvl 10: 24-28 (of Casting)<br>               
+      </ol>     
+    </div>
+    
+    <div class="mod" onclick="toggle('mod5')">
+      <a href="#/" type="changecolor">#% increased Fishing Range<br></a></div>
+     <div id="mod5" class="VAL"> 
+      <ol>
+        <br>iLvl 1: 30-50 (of Flight)<br>               
+      </ol>     
+    </div>
+    
+    <div class="mod" onclick="toggle('mod6')">
+      <a href="#/" type="changecolor">#% increased Quantity of Fish found<br></a></div>
+     <div id="mod6" class="VAL"> 
+      <ol>
+        <br>iLvl 1: 15-20 (of Fascination)<br>               
+      </ol>     
+    </div>
+    
+    <div class="mod" onclick="toggle('mod7')">
+      <a href="#/" type="changecolor">#% increased Rarity of Fish found<br></a></div>
+     <div id="mod7" class="VAL"> 
+      <ol>
+        <br>iLvl 1: 25-40 (of Bounty)<br>               
+      </ol>     
+    </div> 
+   </div>
+   </aside>                                       
+
+  <!-- InstanceEndEditable -->
+  
+  
+  
+  
+<div id="ADBAR">
+<div id="TopSideBarAd">
+
+ <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 300x250 Display -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-7924380187053536"
+     data-ad-slot="3764606006"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+
+</div> 
+  
+  
+   
+<div id="uppermiddlesidebarad">   
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 300x600 Display Only -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-7924380187053536"
+     data-ad-slot="2287872807"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</div>
+   
+           
+    
+<div id="lowermiddlesidebarad">   
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 300x250 Text Only -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-7924380187053536"
+     data-ad-slot="9811139608"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+</div>
+    
+    
+    
+
+    
+    
+    
+<div id="bottomsidebarad">   
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Generic 300x250 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-7924380187053536"
+     data-ad-slot="6329622804"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>  
+</div> 
+
+
+</div>
+
+ 
+ 
+  
+<footer class="footer">
+    <div id="footermsg">© 2015-2017. This site is not affiliated with, endorsed, or sponsored by Grinding Gear Games.</div>
+    
+    
+
+
+
+<script type="text/javascript" src="js/closemodal.js"></script>
+<script type="text/javascript" src="js/mod.js"></script>  
+    
+</footer>  
+</div>
+
+
+
+</body>
+<!-- InstanceEnd --></html>
